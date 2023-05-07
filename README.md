@@ -12,7 +12,7 @@ A few resources used in this project:
 -  jUnit5 testing 
 -  Libraries as jar files include : jackson core, jackson annotation, com.fasterxml.jackson.databind.jar, java-json
 
-##Deliverables:
+## Deliverables:
 1. Provide a UML diagram/s to illustrate your understanding of Object Oriented design
 techniques and concepts.
 2. Provide a code skeleton to the design.
