@@ -9,6 +9,8 @@ A few resources used in this project:
 
 -  Use Model–view–controller (MVC) as a software architectural pattern
 -  Use the Factory Design Pattern
+-  jUnit5 testing 
+-  Libraries as jar files include : jackson core, jackson annotation, com.fasterxml.jackson.databind.jar, java-json
 
 ##Deliverables:
 1. Provide a UML diagram/s to illustrate your understanding of Object Oriented design
