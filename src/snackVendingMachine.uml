@@ -1,0 +1,1007 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_V8KGcOxtEe2PMt3eN9rk3g" name="snackVendingMachine">
+    <eAnnotations xmi:id="_WAFkMOxtEe2PMt3eN9rk3g" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_WAFkMextEe2PMt3eN9rk3g" source="codegen">
+        <details xmi:id="_WAFkMuxtEe2PMt3eN9rk3g" key="codegenDirectory" value="/snackVendingMachine/src"/>
+        <details xmi:id="_WJO5IOxtEe2PMt3eN9rk3g" key="AssociatedSourceCode" value="/snackVendingMachine/src/snackVendingMachine/SnackVendingMachineFactory.java;3569018920/1;/snackVendingMachine/src/snackVendingMachine/Main.java;3745803688/1;/snackVendingMachine/src/snackVendingMachine/Money.java;1101547158/1;/snackVendingMachine/src/snackVendingMachine/Snack.java;2964985070/1;/snackVendingMachine/src/snackVendingMachine/SnackVendingMachine.java;2343757875/1;/snackVendingMachine/src/snackVendingMachine/CardSlot.java;3911107687/1;/snackVendingMachine/src/snackVendingMachine/SnackVendingMachineTest.java;2671463058/1;/snackVendingMachine/src/snackVendingMachine/SnacksData.java;1345199116/1;/snackVendingMachine/src/snackVendingMachine/VendingMachine.java;2972902366/1;/snackVendingMachine/src/snackVendingMachine/VendingMachineController.java;265048398/1;/snackVendingMachine/src/snackVendingMachine/VendingMachineFactory.java;664233702/1;/snackVendingMachine/src/snackVendingMachine/Coin.java;749532287/1;/snackVendingMachine/src/snackVendingMachine/Note.java;224700716/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_WFlvQOxtEe2PMt3eN9rk3g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_WFlvQextEe2PMt3eN9rk3g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_WFlvQuxtEe2PMt3eN9rk3g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_WFlvQ-xtEe2PMt3eN9rk3g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_WFlvROxtEe2PMt3eN9rk3g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_WFlvRextEe2PMt3eN9rk3g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_WFlvRuxtEe2PMt3eN9rk3g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_WFlvR-xtEe2PMt3eN9rk3g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_WFlvSOxtEe2PMt3eN9rk3g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_WFmWUOxtEe2PMt3eN9rk3g" name="snackVendingMachine">
+      <packagedElement xmi:type="uml:Class" xmi:id="_WGB0IOxtEe2PMt3eN9rk3g" name="SnackVendingMachineFactory">
+        <generalization xmi:id="_WHU0oextEe2PMt3eN9rk3g" general="_WGl00OxtEe2PMt3eN9rk3g"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WHpkwOxtEe2PMt3eN9rk3g" name="createVendingMachine" specification="_WGCbMOxtEe2PMt3eN9rk3g">
+          <ownedParameter xmi:id="_WHpkwextEe2PMt3eN9rk3g" type="_WGfuMOxtEe2PMt3eN9rk3g" direction="return"/>
+          <language>java</language>
+          <body>VendingMachine vendingMachine = new SnackVendingMachine();&#xD;
+     return vendingMachine;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_WGCbMOxtEe2PMt3eN9rk3g" name="createVendingMachine" method="_WHpkwOxtEe2PMt3eN9rk3g">
+          <ownedParameter xmi:id="_WHU0oOxtEe2PMt3eN9rk3g" type="_WGfuMOxtEe2PMt3eN9rk3g" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Enumeration" xmi:id="_WGDpUOxtEe2PMt3eN9rk3g" name="Coin" visibility="package">
+        <ownedAttribute xmi:id="_WHkFMextEe2PMt3eN9rk3g" name="value" visibility="private" isLeaf="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_WGH6wOxtEe2PMt3eN9rk3g" name="Coin" visibility="package" method="_WHpkxOxtEe2PMt3eN9rk3g">
+          <eAnnotations xmi:id="_WGH6wuxtEe2PMt3eN9rk3g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_WGH6w-xtEe2PMt3eN9rk3g" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_WGH6wextEe2PMt3eN9rk3g" name="d">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WGH6xOxtEe2PMt3eN9rk3g" type="_WGDpUOxtEe2PMt3eN9rk3g" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WGIh0OxtEe2PMt3eN9rk3g" name="getValue" method="_WHqL0OxtEe2PMt3eN9rk3g">
+          <ownedParameter xmi:id="_WGIh0extEe2PMt3eN9rk3g" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedLiteral xmi:id="_WGGFkOxtEe2PMt3eN9rk3g" name="DOLLAR">
+          <specification xmi:type="uml:Expression" xmi:id="_WGGFkextEe2PMt3eN9rk3g">
+            <operand xmi:type="uml:LiteralString" xmi:id="_WHtPI-xtEe2PMt3eN9rk3g" value="1"/>
+          </specification>
+        </ownedLiteral>
+        <ownedLiteral xmi:id="_WGGsoOxtEe2PMt3eN9rk3g" name="TEN_CENT">
+          <specification xmi:type="uml:Expression" xmi:id="_WGGsoextEe2PMt3eN9rk3g">
+            <operand xmi:type="uml:LiteralString" xmi:id="_WHtPJOxtEe2PMt3eN9rk3g" value="0.1"/>
+          </specification>
+        </ownedLiteral>
+        <ownedLiteral xmi:id="_WGGsouxtEe2PMt3eN9rk3g" name="TWINTY_CENT">
+          <specification xmi:type="uml:Expression" xmi:id="_WGGso-xtEe2PMt3eN9rk3g">
+            <operand xmi:type="uml:LiteralString" xmi:id="_WHt2MOxtEe2PMt3eN9rk3g" value="0.2"/>
+          </specification>
+        </ownedLiteral>
+        <ownedLiteral xmi:id="_WGGspOxtEe2PMt3eN9rk3g" name="FIFTYCent">
+          <specification xmi:type="uml:Expression" xmi:id="_WGGspextEe2PMt3eN9rk3g">
+            <operand xmi:type="uml:LiteralString" xmi:id="_WHt2MextEe2PMt3eN9rk3g" value="0.5"/>
+          </specification>
+        </ownedLiteral>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_WGJv8OxtEe2PMt3eN9rk3g" name="Main">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WHqL0uxtEe2PMt3eN9rk3g" name="main" specification="_WGJv8extEe2PMt3eN9rk3g">
+          <ownedParameter xmi:id="_WHqL0-xtEe2PMt3eN9rk3g" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WHqL1OxtEe2PMt3eN9rk3g" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>System.out.print(&quot;hi&quot;);&#xD;
+		 VendingMachineFactory factory = new SnackVendingMachineFactory();&#xD;
+	     VendingMachine vendingMachine = factory.createVendingMachine();&#xD;
+	     VendingMachineController controller = new VendingMachineController(vendingMachine);&#xD;
+	     &#xD;
+	  // Display available snacks&#xD;
+	     controller.displaySnacks();&#xD;
+	     // Select a snack&#xD;
+	     controller.selectSnack(3, 3);&#xD;
+	     // Insert coins or notes&#xD;
+	     controller.insertCoin(Coin.DOLLAR);//1&#xD;
+	     controller.insertCoin(Coin.FIFTYCent);//0.5&#xD;
+	    &#xD;
+	     // Dispense the snack&#xD;
+	     controller.dispenseItem(3, 3);&#xD;
+	    System.out.println(&quot;_______________________________________________________&quot;);&#xD;
+	     &#xD;
+	     // Display available snacks&#xD;
+	     controller.displaySnacks();&#xD;
+&#xD;
+	     // Select a snack&#xD;
+	     controller.selectSnack(3, 2);&#xD;
+	     // Insert coins or notes&#xD;
+	     controller.insertCoin(Coin.DOLLAR);//1&#xD;
+	     controller.insertCoin(Coin.FIFTYCent);//0.5&#xD;
+	    &#xD;
+	     // Dispense the snack&#xD;
+	     controller.dispenseItem(3, 2);&#xD;
+	     System.out.println(&quot;_______________________________________________________&quot;);&#xD;
+	     // Display available snacks&#xD;
+	     controller.displaySnacks();&#xD;
+&#xD;
+	     // Select a snack&#xD;
+	     controller.selectSnack(3, 1);&#xD;
+	     // Insert coins or notes&#xD;
+	     controller.insertCoin(Coin.DOLLAR);//1&#xD;
+	     controller.insertCoin(Coin.FIFTYCent);//0.5&#xD;
+	    &#xD;
+	     // Dispense the snack&#xD;
+	     controller.dispenseItem(3, 1);&#xD;
+	     System.out.println(&quot;_______________________________________________________&quot;);&#xD;
+	   &#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_WGJv8extEe2PMt3eN9rk3g" name="main" isStatic="true" method="_WHqL0uxtEe2PMt3eN9rk3g">
+          <ownedParameter xmi:id="_WGJv8uxtEe2PMt3eN9rk3g" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WGK-EOxtEe2PMt3eN9rk3g" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_WGK-EextEe2PMt3eN9rk3g" name="Money">
+        <ownedAttribute xmi:id="_WGLlIOxtEe2PMt3eN9rk3g" name="currency" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Enumeration" xmi:id="_WGLlIextEe2PMt3eN9rk3g" name="Note" visibility="package">
+        <ownedAttribute xmi:id="_WHlTUextEe2PMt3eN9rk3g" name="value" visibility="private" isLeaf="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_WGOBYOxtEe2PMt3eN9rk3g" name="Note" visibility="package" method="_WHqL1-xtEe2PMt3eN9rk3g">
+          <eAnnotations xmi:id="_WGOBYuxtEe2PMt3eN9rk3g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_WGOBY-xtEe2PMt3eN9rk3g" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_WGOBYextEe2PMt3eN9rk3g" name="d">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WGOBZOxtEe2PMt3eN9rk3g" type="_WGLlIextEe2PMt3eN9rk3g" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WGOBZextEe2PMt3eN9rk3g" name="getValue" method="_WHqL2uxtEe2PMt3eN9rk3g">
+          <ownedParameter xmi:id="_WGOBZuxtEe2PMt3eN9rk3g" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedLiteral xmi:id="_WGNaUOxtEe2PMt3eN9rk3g" name="Twenty_DOLLAR">
+          <specification xmi:type="uml:Expression" xmi:id="_WGNaUextEe2PMt3eN9rk3g">
+            <operand xmi:type="uml:LiteralString" xmi:id="_WHt2MuxtEe2PMt3eN9rk3g" value="20"/>
+          </specification>
+        </ownedLiteral>
+        <ownedLiteral xmi:id="_WGNaUuxtEe2PMt3eN9rk3g" name="FIFTY_DOLLAR">
+          <specification xmi:type="uml:Expression" xmi:id="_WGNaU-xtEe2PMt3eN9rk3g">
+            <operand xmi:type="uml:LiteralString" xmi:id="_WHt2M-xtEe2PMt3eN9rk3g" value="50"/>
+          </specification>
+        </ownedLiteral>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_WGPPgOxtEe2PMt3eN9rk3g" name="Snack" visibility="package">
+        <ownedAttribute xmi:id="_WHl6YextEe2PMt3eN9rk3g" name="name">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_WHl6YuxtEe2PMt3eN9rk3g" name="price">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WHqy4OxtEe2PMt3eN9rk3g" name="Snack" specification="_WGPPgextEe2PMt3eN9rk3g">
+          <ownedParameter xmi:id="_WHqy4extEe2PMt3eN9rk3g" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WHqy4uxtEe2PMt3eN9rk3g" name="price">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WHqy4-xtEe2PMt3eN9rk3g" type="_WGPPgOxtEe2PMt3eN9rk3g" direction="return"/>
+          <language>java</language>
+          <body>this.name = name;&#xD;
+     this.price = price;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_WGPPgextEe2PMt3eN9rk3g" name="Snack" method="_WHqy4OxtEe2PMt3eN9rk3g">
+          <eAnnotations xmi:id="_WGP2kOxtEe2PMt3eN9rk3g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_WGP2kextEe2PMt3eN9rk3g" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_WGPPguxtEe2PMt3eN9rk3g" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WGPPg-xtEe2PMt3eN9rk3g" name="price">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WGP2kuxtEe2PMt3eN9rk3g" type="_WGPPgOxtEe2PMt3eN9rk3g" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_WGP2k-xtEe2PMt3eN9rk3g" name="SnackVendingMachine">
+        <ownedAttribute xmi:id="_WHmhcOxtEe2PMt3eN9rk3g" name="snacks" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          <qualifier xmi:id="_WHmhcuxtEe2PMt3eN9rk3g">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </qualifier>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_WHmhc-xtEe2PMt3eN9rk3g" name="selectedSnackPrice" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_WHnIgextEe2PMt3eN9rk3g" name="acceptedMoney" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_WHnIg-xtEe2PMt3eN9rk3g" name="isTransactionInProgress" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedAttribute>
+        <interfaceRealization xmi:id="_WHYfAextEe2PMt3eN9rk3g" client="_WGP2k-xtEe2PMt3eN9rk3g" supplier="_WGfuMOxtEe2PMt3eN9rk3g" contract="_WGfuMOxtEe2PMt3eN9rk3g"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WHqy5OxtEe2PMt3eN9rk3g" name="SnackVendingMachine" specification="_WGREsOxtEe2PMt3eN9rk3g">
+          <ownedParameter xmi:id="_WHqy5extEe2PMt3eN9rk3g" type="_WGP2k-xtEe2PMt3eN9rk3g" direction="return"/>
+          <language>java</language>
+          <body>snacks=SnacksData.set(); &#xD;
+     &#xD;
+     selectedSnackPrice = 0;&#xD;
+     acceptedMoney = 0;&#xD;
+     isTransactionInProgress = false;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WHqy5uxtEe2PMt3eN9rk3g" name="displaySnacks" specification="_WGRrwOxtEe2PMt3eN9rk3g">
+          <language>java</language>
+          <body>System.out.println(&quot;Snack Vending Machine&quot;);&#xD;
+     System.out.println(&quot;_____________________&quot;);&#xD;
+     System.out.println(&quot;Row 1: A1 A2 A3 A4 A5&quot;);&#xD;
+     System.out.println(&quot;Row 2: B1 B2 B3 B4 B5&quot;);&#xD;
+     System.out.println(&quot;Row 3: C1 C2 C3 C4 C5&quot;);&#xD;
+     System.out.println(&quot;Row 4: D1 D2 D3 D4 D5&quot;);&#xD;
+     System.out.println(&quot;Row 5: E1 E2 E3 E4 E5&quot;);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WHqy5-xtEe2PMt3eN9rk3g" name="selectSnack" specification="_WGSS0OxtEe2PMt3eN9rk3g">
+          <ownedParameter xmi:id="_WHqy6OxtEe2PMt3eN9rk3g" name="row">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WHqy6extEe2PMt3eN9rk3g" name="column">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>String selectedSnackName = String.format(&quot;%c%d&quot;, (char) ('A' + row - 1), column);&#xD;
+     if (snacks.containsKey(selectedSnackName)) {&#xD;
+     	selectedSnackPrice = snacks.get(selectedSnackName);&#xD;
+         System.out.printf(&quot;Selected snack: %s, price: %.2f\n&quot;, selectedSnackName, selectedSnackPrice);&#xD;
+         isTransactionInProgress = true;&#xD;
+     } else {&#xD;
+         System.out.println(&quot;Invalid selection&quot;);&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WHqy6uxtEe2PMt3eN9rk3g" name="insertCoin" specification="_WHZGEOxtEe2PMt3eN9rk3g">
+          <ownedParameter xmi:id="_WHqy6-xtEe2PMt3eN9rk3g" name="coin" type="_WGDpUOxtEe2PMt3eN9rk3g"/>
+          <ownedParameter xmi:id="_WHqy7OxtEe2PMt3eN9rk3g" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if (!isTransactionInProgress) {&#xD;
+         System.out.println(&quot;No transaction in progress&quot;);&#xD;
+         return false;&#xD;
+     }&#xD;
+     switch ((int) (coin.getValue() * 100)) {&#xD;
+         case 10:&#xD;
+         case 20:&#xD;
+         case 50:&#xD;
+         case 100:&#xD;
+             acceptedMoney += coin.getValue();&#xD;
+             System.out.printf(&quot;Accepted money: %.2f\n&quot;, acceptedMoney);&#xD;
+             return true;&#xD;
+         default:&#xD;
+             System.out.println(&quot;Invalid coin&quot;);&#xD;
+             return false;&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WHqy7extEe2PMt3eN9rk3g" name="insertCard" specification="_WGS54OxtEe2PMt3eN9rk3g">
+          <ownedParameter xmi:id="_WHqy7uxtEe2PMt3eN9rk3g" name="amount">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WHqy7-xtEe2PMt3eN9rk3g" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if (!isTransactionInProgress) {&#xD;
+         System.out.println(&quot;No transaction in progress&quot;);&#xD;
+         return false;&#xD;
+     }&#xD;
+     acceptedMoney += amount;&#xD;
+     System.out.printf(&quot;Accepted money: %.2f\n&quot;, acceptedMoney);&#xD;
+     return true;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WHqy8OxtEe2PMt3eN9rk3g" name="insertNote" specification="_WHZtIuxtEe2PMt3eN9rk3g">
+          <ownedParameter xmi:id="_WHqy8extEe2PMt3eN9rk3g" name="note" type="_WGLlIextEe2PMt3eN9rk3g"/>
+          <ownedParameter xmi:id="_WHqy8uxtEe2PMt3eN9rk3g" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if (!isTransactionInProgress) {&#xD;
+         System.out.println(&quot;No transaction in progress&quot;);&#xD;
+         return false;&#xD;
+     }&#xD;
+     switch ((int) note.getValue()) {&#xD;
+         case 20:&#xD;
+         case 50:&#xD;
+             acceptedMoney += note.getValue();&#xD;
+             System.out.printf(&quot;Accepted money: %.2f\n&quot;, acceptedMoney);&#xD;
+             return true;&#xD;
+         default:&#xD;
+             System.out.println(&quot;Invalid note&quot;);&#xD;
+             return false;&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WHrZ8OxtEe2PMt3eN9rk3g" name="cancelTransaction" specification="_WGTg8-xtEe2PMt3eN9rk3g">
+          <language>java</language>
+          <body>if (!isTransactionInProgress) {&#xD;
+         System.out.println(&quot;No transaction in progress&quot;);&#xD;
+         return;&#xD;
+     }&#xD;
+     System.out.printf(&quot;Transaction cancelled, refunded: %.2f\n&quot;, acceptedMoney);&#xD;
+     resetTransaction();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WHrZ8extEe2PMt3eN9rk3g" name="resetTransaction" specification="_WGUIA-xtEe2PMt3eN9rk3g">
+          <language>java</language>
+          <body>selectedSnackPrice = 0;&#xD;
+     acceptedMoney = 0;&#xD;
+     isTransactionInProgress = false;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WHrZ8uxtEe2PMt3eN9rk3g" name="getItem" specification="_WGUIBOxtEe2PMt3eN9rk3g">
+          <ownedParameter xmi:id="_WHrZ8-xtEe2PMt3eN9rk3g" name="row">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WHrZ9OxtEe2PMt3eN9rk3g" name="column">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WHrZ9extEe2PMt3eN9rk3g" type="_WGPPgOxtEe2PMt3eN9rk3g" direction="return"/>
+          <language>java</language>
+          <body>String key = String.format(&quot;%c%d&quot;, (char) ('A' + row - 1), column);&#xD;
+	    if (snacks.containsKey(key)) {&#xD;
+	        return new Snack(key, snacks.get(key));&#xD;
+	    } else {&#xD;
+	        return null;&#xD;
+	    }&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WHrZ9uxtEe2PMt3eN9rk3g" name="dispenseItem" specification="_WGVWIuxtEe2PMt3eN9rk3g">
+          <ownedParameter xmi:id="_WHrZ9-xtEe2PMt3eN9rk3g" name="row">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WHrZ-OxtEe2PMt3eN9rk3g" name="column">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if (!isTransactionInProgress) {&#xD;
+	        System.out.println(&quot;No transaction in progress&quot;);&#xD;
+	        return;&#xD;
+	    }&#xD;
+	    &#xD;
+	    Snack snackItem = getItem(row, column);&#xD;
+	    if (snackItem == null) {&#xD;
+	        System.out.println(&quot;Invalid selection&quot;);&#xD;
+	        return;&#xD;
+	    }&#xD;
+	    &#xD;
+	    if (acceptedMoney &lt; selectedSnackPrice) {&#xD;
+	        System.out.println(&quot;Insufficient funds&quot;);&#xD;
+	        return;&#xD;
+	    }&#xD;
+	    &#xD;
+	    System.out.printf(&quot;Dispensing snack: %s\n&quot;, snackItem.getName());&#xD;
+	    &#xD;
+	    double change = acceptedMoney - selectedSnackPrice;&#xD;
+	    if (change > 0) {&#xD;
+	        System.out.printf(&quot;Change: %.2f\n&quot;, change);&#xD;
+	    }&#xD;
+	    &#xD;
+	    resetTransaction();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_WGREsOxtEe2PMt3eN9rk3g" name="SnackVendingMachine" method="_WHqy5OxtEe2PMt3eN9rk3g">
+          <eAnnotations xmi:id="_WGREsextEe2PMt3eN9rk3g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_WGREsuxtEe2PMt3eN9rk3g" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_WGREs-xtEe2PMt3eN9rk3g" type="_WGP2k-xtEe2PMt3eN9rk3g" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WGRrwOxtEe2PMt3eN9rk3g" name="displaySnacks" method="_WHqy5uxtEe2PMt3eN9rk3g"/>
+        <ownedOperation xmi:id="_WGSS0OxtEe2PMt3eN9rk3g" name="selectSnack" method="_WHqy5-xtEe2PMt3eN9rk3g">
+          <ownedParameter xmi:id="_WGSS0extEe2PMt3eN9rk3g" name="row">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WGSS0uxtEe2PMt3eN9rk3g" name="column">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WGS54OxtEe2PMt3eN9rk3g" name="insertCard" method="_WHqy7extEe2PMt3eN9rk3g">
+          <ownedParameter xmi:id="_WGS54extEe2PMt3eN9rk3g" name="amount">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WGS54uxtEe2PMt3eN9rk3g" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WGTg8-xtEe2PMt3eN9rk3g" name="cancelTransaction" method="_WHrZ8OxtEe2PMt3eN9rk3g"/>
+        <ownedOperation xmi:id="_WGUIA-xtEe2PMt3eN9rk3g" name="resetTransaction" visibility="private" method="_WHrZ8extEe2PMt3eN9rk3g"/>
+        <ownedOperation xmi:id="_WGUIBOxtEe2PMt3eN9rk3g" name="getItem" method="_WHrZ8uxtEe2PMt3eN9rk3g">
+          <ownedParameter xmi:id="_WGUvEOxtEe2PMt3eN9rk3g" name="row">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WGUvEextEe2PMt3eN9rk3g" name="column">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WHaUM-xtEe2PMt3eN9rk3g" type="_WGPPgOxtEe2PMt3eN9rk3g" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WGVWIuxtEe2PMt3eN9rk3g" name="dispenseItem" method="_WHrZ9uxtEe2PMt3eN9rk3g">
+          <ownedParameter xmi:id="_WGVWI-xtEe2PMt3eN9rk3g" name="row">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WGVWJOxtEe2PMt3eN9rk3g" name="column">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WGV9MuxtEe2PMt3eN9rk3g" name="loadSnackPricesFromFile">
+          <ownedParameter xmi:id="_WGV9M-xtEe2PMt3eN9rk3g" name="filePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WHZGEOxtEe2PMt3eN9rk3g" name="insertCoin" method="_WHqy6uxtEe2PMt3eN9rk3g">
+          <ownedParameter xmi:id="_WHZGEextEe2PMt3eN9rk3g" name="coin" type="_WGDpUOxtEe2PMt3eN9rk3g"/>
+          <ownedParameter xmi:id="_WHZGEuxtEe2PMt3eN9rk3g" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WHZtIuxtEe2PMt3eN9rk3g" name="insertNote" method="_WHqy8OxtEe2PMt3eN9rk3g">
+          <ownedParameter xmi:id="_WHZtI-xtEe2PMt3eN9rk3g" name="note" type="_WGLlIextEe2PMt3eN9rk3g"/>
+          <ownedParameter xmi:id="_WHZtJOxtEe2PMt3eN9rk3g" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_WGXyYOxtEe2PMt3eN9rk3g" name="CardSlot" visibility="package">
+        <ownedAttribute xmi:id="_WHnvkOxtEe2PMt3eN9rk3g" name="amount" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <interfaceRealization xmi:id="_WHa7QOxtEe2PMt3eN9rk3g" client="_WGXyYOxtEe2PMt3eN9rk3g" supplier="_WGK-EextEe2PMt3eN9rk3g" contract="_WGK-EextEe2PMt3eN9rk3g"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WHsBAOxtEe2PMt3eN9rk3g" name="insertCard" specification="_WGYZcOxtEe2PMt3eN9rk3g">
+          <ownedParameter xmi:id="_WHsBAextEe2PMt3eN9rk3g" name="amount">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.amount += amount;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WHsBAuxtEe2PMt3eN9rk3g" name="getCurrency" specification="_WGZAgOxtEe2PMt3eN9rk3g">
+          <ownedParameter xmi:id="_WHsBA-xtEe2PMt3eN9rk3g" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return &quot;USA&quot;;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_WGYZcOxtEe2PMt3eN9rk3g" name="insertCard" method="_WHsBAOxtEe2PMt3eN9rk3g">
+          <ownedParameter xmi:id="_WGYZcextEe2PMt3eN9rk3g" name="amount">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WGZAgOxtEe2PMt3eN9rk3g" name="getCurrency" method="_WHsBAuxtEe2PMt3eN9rk3g">
+          <ownedParameter xmi:id="_WGZAgextEe2PMt3eN9rk3g" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_WGZnkuxtEe2PMt3eN9rk3g" name="SnackVendingMachineTest">
+        <ownedAttribute xmi:id="_WHnvkextEe2PMt3eN9rk3g" name="vendingMachine" visibility="private" type="_WGP2k-xtEe2PMt3eN9rk3g" association="_WHvEUOxtEe2PMt3eN9rk3g"/>
+        <ownedAttribute xmi:id="_WHoWoextEe2PMt3eN9rk3g" name="controller" visibility="private" type="_WGixgOxtEe2PMt3eN9rk3g" association="_WHvrYextEe2PMt3eN9rk3g">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_WHoWouxtEe2PMt3eN9rk3g" value="new VendingMachineController(vendingMachine)"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WHsBBOxtEe2PMt3eN9rk3g" name="setUp" specification="_WGa1sOxtEe2PMt3eN9rk3g">
+          <language>java</language>
+          <body>VendingMachineFactory factory = new SnackVendingMachineFactory();&#xD;
+  VendingMachine vendingMachine = factory.createVendingMachine();&#xD;
+  VendingMachineController controller = new VendingMachineController(vendingMachine);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WHsBBextEe2PMt3eN9rk3g" name="testDisplaySnacks" specification="_WGbcwuxtEe2PMt3eN9rk3g">
+          <language>java</language>
+          <body>VendingMachineFactory factory = new SnackVendingMachineFactory();&#xD;
+     VendingMachine vendingMachine = factory.createVendingMachine();&#xD;
+     VendingMachineController controller = new VendingMachineController(vendingMachine);&#xD;
+&#xD;
+     ByteArrayOutputStream outContent = new ByteArrayOutputStream();&#xD;
+     System.setOut(new PrintStream(outContent));&#xD;
+&#xD;
+     controller.displaySnacks();&#xD;
+     String expectedOutput = &quot;Snack Vending Machine\r\n&quot;&#xD;
+             +&quot;_____________________\r\n&quot;&#xD;
+     		+ &quot;Row 1: A1 A2 A3 A4 A5\r\n&quot;&#xD;
+     		+ &quot;Row 2: B1 B2 B3 B4 B5\r\n&quot;&#xD;
+     		+ &quot;Row 3: C1 C2 C3 C4 C5\r\n&quot;&#xD;
+     		+ &quot;Row 4: D1 D2 D3 D4 D5\r\n&quot;&#xD;
+     		+ &quot;Row 5: E1 E2 E3 E4 E5\r\n&quot;;&#xD;
+&#xD;
+     assertEquals(expectedOutput, outContent.toString());&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WHsBBuxtEe2PMt3eN9rk3g" name="testSelectSnack" specification="_WGcD0uxtEe2PMt3eN9rk3g">
+          <language>java</language>
+          <body>VendingMachineFactory factory = new SnackVendingMachineFactory();&#xD;
+     VendingMachine vendingMachine = factory.createVendingMachine();&#xD;
+     VendingMachineController controller = new VendingMachineController(vendingMachine);&#xD;
+&#xD;
+     ByteArrayOutputStream outContent = new ByteArrayOutputStream();&#xD;
+     System.setOut(new PrintStream(outContent));&#xD;
+&#xD;
+     controller.selectSnack(3,3);&#xD;
+     String expectedOutput =&quot;Selected snack: C3, price: 1.75\n&quot;;&#xD;
+&#xD;
+     assertEquals(expectedOutput, outContent.toString());</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WHsBB-xtEe2PMt3eN9rk3g" name="testSelectInvalidSelection" specification="_WGcq4uxtEe2PMt3eN9rk3g">
+          <language>java</language>
+          <body>VendingMachineFactory factory = new SnackVendingMachineFactory();&#xD;
+     VendingMachine vendingMachine = factory.createVendingMachine();&#xD;
+     VendingMachineController controller = new VendingMachineController(vendingMachine);&#xD;
+&#xD;
+     ByteArrayOutputStream outContent = new ByteArrayOutputStream();&#xD;
+     System.setOut(new PrintStream(outContent));&#xD;
+&#xD;
+     controller.selectSnack(-3,3);&#xD;
+     String expectedOutput =&quot;Invalid selection\r\n&quot;;&#xD;
+&#xD;
+     assertEquals(expectedOutput, outContent.toString());</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_WGa1sOxtEe2PMt3eN9rk3g" name="setUp" method="_WHsBBOxtEe2PMt3eN9rk3g"/>
+        <ownedOperation xmi:id="_WGbcwuxtEe2PMt3eN9rk3g" name="testDisplaySnacks" method="_WHsBBextEe2PMt3eN9rk3g"/>
+        <ownedOperation xmi:id="_WGcD0uxtEe2PMt3eN9rk3g" name="testSelectSnack" method="_WHsBBuxtEe2PMt3eN9rk3g"/>
+        <ownedOperation xmi:id="_WGcq4uxtEe2PMt3eN9rk3g" name="testSelectInvalidSelection" method="_WHsBB-xtEe2PMt3eN9rk3g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_WGd5AOxtEe2PMt3eN9rk3g" name="SnacksData">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WHsBCOxtEe2PMt3eN9rk3g" name="set" specification="_WGd5AextEe2PMt3eN9rk3g">
+          <ownedParameter xmi:id="_WHsBCextEe2PMt3eN9rk3g" type="_WHX38-xtEe2PMt3eN9rk3g" direction="return"/>
+          <language>java</language>
+          <body>Map&lt;String, Double> snacks = new HashMap&lt;>();&#xD;
+ snacks.put(&quot;A1&quot;, 1.50);&#xD;
+ snacks.put(&quot;A2&quot;, 1.75);&#xD;
+ snacks.put(&quot;A3&quot;, 2.00);&#xD;
+ snacks.put(&quot;A4&quot;, 2.25);&#xD;
+ snacks.put(&quot;A5&quot;, 2.50);&#xD;
+ snacks.put(&quot;B1&quot;, 1.25);&#xD;
+ snacks.put(&quot;B2&quot;, 1.50);&#xD;
+ snacks.put(&quot;B3&quot;, 1.75);&#xD;
+ snacks.put(&quot;B4&quot;, 2.00);&#xD;
+ snacks.put(&quot;B5&quot;, 2.25);&#xD;
+ snacks.put(&quot;C1&quot;, 1.25);&#xD;
+ snacks.put(&quot;C2&quot;, 1.50);&#xD;
+ snacks.put(&quot;C3&quot;, 1.75);&#xD;
+ snacks.put(&quot;C4&quot;, 2.00);&#xD;
+ snacks.put(&quot;C5&quot;, 2.25);&#xD;
+ snacks.put(&quot;D1&quot;, 1.50);&#xD;
+ snacks.put(&quot;D2&quot;, 1.75);&#xD;
+ snacks.put(&quot;D3&quot;, 2.00);&#xD;
+ snacks.put(&quot;D4&quot;, 2.25);&#xD;
+ snacks.put(&quot;D5&quot;, 2.50);&#xD;
+ snacks.put(&quot;E1&quot;, 1.25);&#xD;
+ snacks.put(&quot;E2&quot;, 1.50);&#xD;
+ snacks.put(&quot;E3&quot;, 1.75);&#xD;
+ snacks.put(&quot;E4&quot;, 2.00);&#xD;
+ snacks.put(&quot;E5&quot;, 2.25);&#xD;
+ return snacks;&#xD;
+	   &#xD;
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WHsoEOxtEe2PMt3eN9rk3g" name="jsonReader" specification="_WGfHIOxtEe2PMt3eN9rk3g">
+          <ownedParameter xmi:id="_WHsoEextEe2PMt3eN9rk3g" type="_WGPPgOxtEe2PMt3eN9rk3g" isOrdered="true" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WHsoEuxtEe2PMt3eN9rk3g" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>List&lt;Snack> snacks = new ArrayList&lt;>();&#xD;
+	   ObjectMapper mapper = new ObjectMapper();&#xD;
+	   try {&#xD;
+	       Snack[] snackArray = mapper.readValue(new File(&quot;snacks.json&quot;), Snack[].class);&#xD;
+	       for (Snack snack : snackArray) {&#xD;
+	           snacks.add(snack);&#xD;
+	       }&#xD;
+	   } catch (IOException e) {&#xD;
+	       e.printStackTrace();&#xD;
+	   }&#xD;
+&#xD;
+	   // print the snacks list&#xD;
+	   for (Snack snack : snacks) {&#xD;
+	       System.out.println(&quot;Snack Name: &quot; + snack.getName() + &quot;, Price: &quot; + snack.getPrice());&#xD;
+	   }&#xD;
+	return snacks;</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_WGd5AextEe2PMt3eN9rk3g" name="set" isStatic="true" method="_WHsBCOxtEe2PMt3eN9rk3g">
+          <ownedParameter xmi:id="_WHiQAOxtEe2PMt3eN9rk3g" type="_WHX38-xtEe2PMt3eN9rk3g" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WGfHIOxtEe2PMt3eN9rk3g" name="jsonReader" method="_WHsoEOxtEe2PMt3eN9rk3g">
+          <ownedParameter xmi:id="_WGfHIextEe2PMt3eN9rk3g" type="_WGPPgOxtEe2PMt3eN9rk3g" isOrdered="true" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WGfHIuxtEe2PMt3eN9rk3g" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_WGfuMOxtEe2PMt3eN9rk3g" name="VendingMachine" visibility="package">
+        <ownedOperation xmi:id="_WGfuMextEe2PMt3eN9rk3g" name="displaySnacks"/>
+        <ownedOperation xmi:id="_WGgVQOxtEe2PMt3eN9rk3g" name="selectSnack">
+          <ownedParameter xmi:id="_WGgVQextEe2PMt3eN9rk3g" name="row">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WGgVQuxtEe2PMt3eN9rk3g" name="column">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WGgVQ-xtEe2PMt3eN9rk3g" name="dispenseItem">
+          <ownedParameter xmi:id="_WGgVROxtEe2PMt3eN9rk3g" name="row">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WGgVRextEe2PMt3eN9rk3g" name="column">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WGg8UOxtEe2PMt3eN9rk3g" name="getItem">
+          <ownedParameter xmi:id="_WGg8UextEe2PMt3eN9rk3g" name="row">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WGg8UuxtEe2PMt3eN9rk3g" name="column">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WHfMsOxtEe2PMt3eN9rk3g" type="_WGPPgOxtEe2PMt3eN9rk3g" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WGhjYOxtEe2PMt3eN9rk3g" name="insertCard">
+          <ownedParameter xmi:id="_WGhjYextEe2PMt3eN9rk3g" name="amount">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WGhjYuxtEe2PMt3eN9rk3g" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WGhjY-xtEe2PMt3eN9rk3g" name="cancelTransaction"/>
+        <ownedOperation xmi:id="_WGhjZOxtEe2PMt3eN9rk3g" name="loadSnackPricesFromFile">
+          <ownedParameter xmi:id="_WGiKcOxtEe2PMt3eN9rk3g" name="filePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WHfMsextEe2PMt3eN9rk3g" name="insertCoin">
+          <ownedParameter xmi:id="_WHfMsuxtEe2PMt3eN9rk3g" name="coin" type="_WGDpUOxtEe2PMt3eN9rk3g"/>
+          <ownedParameter xmi:id="_WHfMs-xtEe2PMt3eN9rk3g" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WHfMtOxtEe2PMt3eN9rk3g" name="insertNote">
+          <ownedParameter xmi:id="_WHfMtextEe2PMt3eN9rk3g" name="note" type="_WGLlIextEe2PMt3eN9rk3g"/>
+          <ownedParameter xmi:id="_WHfMtuxtEe2PMt3eN9rk3g" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_WGixgOxtEe2PMt3eN9rk3g" name="VendingMachineController">
+        <ownedAttribute xmi:id="_WHo9sOxtEe2PMt3eN9rk3g" name="vendingMachine" visibility="private" isLeaf="true" type="_WGfuMOxtEe2PMt3eN9rk3g" isReadOnly="true" association="_WHwScextEe2PMt3eN9rk3g"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WHsoE-xtEe2PMt3eN9rk3g" name="VendingMachineController" specification="_WHfzwOxtEe2PMt3eN9rk3g">
+          <ownedParameter xmi:id="_WHsoFOxtEe2PMt3eN9rk3g" name="vendingMachine" type="_WGfuMOxtEe2PMt3eN9rk3g"/>
+          <ownedParameter xmi:id="_WHsoFextEe2PMt3eN9rk3g" type="_WGixgOxtEe2PMt3eN9rk3g" direction="return"/>
+          <language>java</language>
+          <body>this.vendingMachine = vendingMachine;&#xD;
+    </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WHsoFuxtEe2PMt3eN9rk3g" name="displaySnacks" specification="_WGjYkOxtEe2PMt3eN9rk3g">
+          <language>java</language>
+          <body>vendingMachine.displaySnacks();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WHsoF-xtEe2PMt3eN9rk3g" name="selectSnack" specification="_WGj_oOxtEe2PMt3eN9rk3g">
+          <ownedParameter xmi:id="_WHsoGOxtEe2PMt3eN9rk3g" name="row">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WHsoGextEe2PMt3eN9rk3g" name="column">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>vendingMachine.selectSnack(row, column);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WHsoGuxtEe2PMt3eN9rk3g" name="insertCoin" specification="_WHfzxextEe2PMt3eN9rk3g">
+          <ownedParameter xmi:id="_WHsoG-xtEe2PMt3eN9rk3g" name="coin" type="_WGDpUOxtEe2PMt3eN9rk3g"/>
+          <language>java</language>
+          <body>vendingMachine.insertCoin(coin);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WHsoHOxtEe2PMt3eN9rk3g" name="insertCard" specification="_WGj_o-xtEe2PMt3eN9rk3g">
+          <ownedParameter xmi:id="_WHsoHextEe2PMt3eN9rk3g" name="amount">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>vendingMachine.insertCard(amount);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WHsoHuxtEe2PMt3eN9rk3g" name="insertNote" specification="_WHga0OxtEe2PMt3eN9rk3g">
+          <ownedParameter xmi:id="_WHsoH-xtEe2PMt3eN9rk3g" name="note" type="_WGLlIextEe2PMt3eN9rk3g"/>
+          <language>java</language>
+          <body>vendingMachine.insertNote(note);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WHsoIOxtEe2PMt3eN9rk3g" name="cancelTransaction" specification="_WGkmsextEe2PMt3eN9rk3g">
+          <language>java</language>
+          <body>vendingMachine.cancelTransaction();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WHtPIOxtEe2PMt3eN9rk3g" name="dispenseItem" specification="_WGkmsuxtEe2PMt3eN9rk3g">
+          <ownedParameter xmi:id="_WHtPIextEe2PMt3eN9rk3g" name="row">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WHtPIuxtEe2PMt3eN9rk3g" name="column">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Snack snackItem = vendingMachine.getItem(row, column);&#xD;
+     if (snackItem == null) {&#xD;
+         System.out.println(&quot;Invalid selection&quot;);&#xD;
+     } else {&#xD;
+         vendingMachine.dispenseItem(row, column);&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_WGjYkOxtEe2PMt3eN9rk3g" name="displaySnacks" method="_WHsoFuxtEe2PMt3eN9rk3g"/>
+        <ownedOperation xmi:id="_WGj_oOxtEe2PMt3eN9rk3g" name="selectSnack" method="_WHsoF-xtEe2PMt3eN9rk3g">
+          <ownedParameter xmi:id="_WGj_oextEe2PMt3eN9rk3g" name="row">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WGj_ouxtEe2PMt3eN9rk3g" name="column">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WGj_o-xtEe2PMt3eN9rk3g" name="insertCard" method="_WHsoHOxtEe2PMt3eN9rk3g">
+          <ownedParameter xmi:id="_WGkmsOxtEe2PMt3eN9rk3g" name="amount">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WGkmsextEe2PMt3eN9rk3g" name="cancelTransaction" method="_WHsoIOxtEe2PMt3eN9rk3g"/>
+        <ownedOperation xmi:id="_WGkmsuxtEe2PMt3eN9rk3g" name="dispenseItem" method="_WHtPIOxtEe2PMt3eN9rk3g">
+          <ownedParameter xmi:id="_WGlNwOxtEe2PMt3eN9rk3g" name="row">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WGlNwextEe2PMt3eN9rk3g" name="column">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WHfzwOxtEe2PMt3eN9rk3g" name="VendingMachineController" method="_WHsoE-xtEe2PMt3eN9rk3g">
+          <eAnnotations xmi:id="_WHfzwuxtEe2PMt3eN9rk3g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_WHfzw-xtEe2PMt3eN9rk3g" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_WHfzwextEe2PMt3eN9rk3g" name="vendingMachine" type="_WGfuMOxtEe2PMt3eN9rk3g"/>
+          <ownedParameter xmi:id="_WHfzxOxtEe2PMt3eN9rk3g" type="_WGixgOxtEe2PMt3eN9rk3g" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WHfzxextEe2PMt3eN9rk3g" name="insertCoin" method="_WHsoGuxtEe2PMt3eN9rk3g">
+          <ownedParameter xmi:id="_WHfzxuxtEe2PMt3eN9rk3g" name="coin" type="_WGDpUOxtEe2PMt3eN9rk3g"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WHga0OxtEe2PMt3eN9rk3g" name="insertNote" method="_WHsoHuxtEe2PMt3eN9rk3g">
+          <ownedParameter xmi:id="_WHga0extEe2PMt3eN9rk3g" name="note" type="_WGLlIextEe2PMt3eN9rk3g"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_WGl00OxtEe2PMt3eN9rk3g" name="VendingMachineFactory" isAbstract="true">
+        <ownedOperation xmi:id="_WGmb4OxtEe2PMt3eN9rk3g" name="createVendingMachine" isAbstract="true">
+          <ownedParameter xmi:id="_WHga0uxtEe2PMt3eN9rk3g" type="_WGfuMOxtEe2PMt3eN9rk3g" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_WHvEUOxtEe2PMt3eN9rk3g" name="" memberEnd="_WHvEUextEe2PMt3eN9rk3g _WHnvkextEe2PMt3eN9rk3g">
+        <ownedEnd xmi:id="_WHvEUextEe2PMt3eN9rk3g" name="" type="_WGZnkuxtEe2PMt3eN9rk3g" association="_WHvEUOxtEe2PMt3eN9rk3g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_WHvrYextEe2PMt3eN9rk3g" name="" memberEnd="_WHvrYuxtEe2PMt3eN9rk3g _WHoWoextEe2PMt3eN9rk3g">
+        <ownedEnd xmi:id="_WHvrYuxtEe2PMt3eN9rk3g" name="" type="_WGZnkuxtEe2PMt3eN9rk3g" association="_WHvrYextEe2PMt3eN9rk3g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_WHwScextEe2PMt3eN9rk3g" name="" memberEnd="_WHwScuxtEe2PMt3eN9rk3g _WHo9sOxtEe2PMt3eN9rk3g">
+        <ownedEnd xmi:id="_WHwScuxtEe2PMt3eN9rk3g" name="" type="_WGixgOxtEe2PMt3eN9rk3g" association="_WHwScextEe2PMt3eN9rk3g"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_WFrO0OxtEe2PMt3eN9rk3g" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_WFrO0extEe2PMt3eN9rk3g" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_WHXQ4OxtEe2PMt3eN9rk3g" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_WHXQ4uxtEe2PMt3eN9rk3g" name="HashMap"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_WHX38extEe2PMt3eN9rk3g" name="List"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_WHX38-xtEe2PMt3eN9rk3g" name="Map"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_WFwuYOxtEe2PMt3eN9rk3g" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_WHcwcextEe2PMt3eN9rk3g" name="ByteArrayOutputStream"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_WHcwc-xtEe2PMt3eN9rk3g" name="PrintStream"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_WHdXgextEe2PMt3eN9rk3g" name="FileReader"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_WHeloextEe2PMt3eN9rk3g" name="File"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_WHelo-xtEe2PMt3eN9rk3g" name="IOException"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_WFwHUOxtEe2PMt3eN9rk3g" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_WFwHUextEe2PMt3eN9rk3g" name="junit">
+        <packagedElement xmi:type="uml:Package" xmi:id="_WFwHUuxtEe2PMt3eN9rk3g" name="jupiter">
+          <packagedElement xmi:type="uml:Package" xmi:id="_WFwHU-xtEe2PMt3eN9rk3g" name="api">
+            <packagedElement xmi:type="uml:Class" xmi:id="_WHcJY-xtEe2PMt3eN9rk3g" name="Assertions"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_WHbiUOxtEe2PMt3eN9rk3g" name="Before"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_WHbiUuxtEe2PMt3eN9rk3g" name="Test"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_WHcJYextEe2PMt3eN9rk3g" name="Assert"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_WFyjkOxtEe2PMt3eN9rk3g" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_WFyjkextEe2PMt3eN9rk3g" name="fasterxml">
+        <packagedElement xmi:type="uml:Package" xmi:id="_WFyjkuxtEe2PMt3eN9rk3g" name="jackson">
+          <packagedElement xmi:type="uml:Package" xmi:id="_WFyjk-xtEe2PMt3eN9rk3g" name="databind">
+            <packagedElement xmi:type="uml:Class" xmi:id="_WHd-kextEe2PMt3eN9rk3g" name="ObjectMapper"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_WAFkM-xtEe2PMt3eN9rk3g">
+      <eAnnotations xmi:id="_WAFkNOxtEe2PMt3eN9rk3g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_WAFkNextEe2PMt3eN9rk3g" base_Package="_V8KGcOxtEe2PMt3eN9rk3g">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WGCbMextEe2PMt3eN9rk3g" base_Element="_WGCbMOxtEe2PMt3eN9rk3g"/>
+  <UMLLabProfile:Annotations xmi:id="_WGDCQOxtEe2PMt3eN9rk3g" base_Element="_WGCbMOxtEe2PMt3eN9rk3g">
+    <annotations xmi:id="_WGDCQextEe2PMt3eN9rk3g" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:EnumExtension xmi:id="_WGE3cOxtEe2PMt3eN9rk3g" base_Enumeration="_WGDpUOxtEe2PMt3eN9rk3g">
+    <nestedClassifier xmi:type="uml:Class" xmi:id="_WGE3cextEe2PMt3eN9rk3g" name="CoinSlot" visibility="package">
+      <eAnnotations xmi:id="_WGE3cuxtEe2PMt3eN9rk3g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_WGE3c-xtEe2PMt3eN9rk3g" key="sameFile"/>
+      </eAnnotations>
+      <ownedAttribute xmi:id="_WHkFMOxtEe2PMt3eN9rk3g" name="amount" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WHpkwuxtEe2PMt3eN9rk3g" name="insertCoin" specification="_WHVbsOxtEe2PMt3eN9rk3g">
+        <ownedParameter xmi:id="_WHpkw-xtEe2PMt3eN9rk3g" name="coin" type="_WGDpUOxtEe2PMt3eN9rk3g"/>
+        <language>java</language>
+        <body>amount+= coin.getValue();&#xD;
+        &#xD;
+   &#xD;
+ </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_WHVbsOxtEe2PMt3eN9rk3g" name="insertCoin" method="_WHpkwuxtEe2PMt3eN9rk3g">
+        <ownedParameter xmi:id="_WHVbsextEe2PMt3eN9rk3g" name="coin" type="_WGDpUOxtEe2PMt3eN9rk3g"/>
+      </ownedOperation>
+    </nestedClassifier>
+  </UMLLabProfile:EnumExtension>
+  <UMLLabProfile:EnumExtension xmi:id="_WGMzQOxtEe2PMt3eN9rk3g" base_Enumeration="_WGLlIextEe2PMt3eN9rk3g">
+    <nestedClassifier xmi:type="uml:Class" xmi:id="_WGMzQextEe2PMt3eN9rk3g" name="NoteSlot" visibility="package">
+      <eAnnotations xmi:id="_WGMzQuxtEe2PMt3eN9rk3g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_WGMzQ-xtEe2PMt3eN9rk3g" key="sameFile"/>
+      </eAnnotations>
+      <ownedAttribute xmi:id="_WHlTUOxtEe2PMt3eN9rk3g" name="amount" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WHqL1extEe2PMt3eN9rk3g" name="insertNote" specification="_WHWCwOxtEe2PMt3eN9rk3g">
+        <ownedParameter xmi:id="_WHqL1uxtEe2PMt3eN9rk3g" name="note" type="_WGLlIextEe2PMt3eN9rk3g"/>
+        <language>java</language>
+        <body>amount += note.getValue();&#xD;
+ &#xD;
+ </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_WHWCwOxtEe2PMt3eN9rk3g" name="insertNote" method="_WHqL1extEe2PMt3eN9rk3g">
+        <ownedParameter xmi:id="_WHWp0OxtEe2PMt3eN9rk3g" name="note" type="_WGLlIextEe2PMt3eN9rk3g"/>
+      </ownedOperation>
+    </nestedClassifier>
+  </UMLLabProfile:EnumExtension>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WGRrwextEe2PMt3eN9rk3g" base_Element="_WGRrwOxtEe2PMt3eN9rk3g"/>
+  <UMLLabProfile:Annotations xmi:id="_WGRrwuxtEe2PMt3eN9rk3g" base_Element="_WGRrwOxtEe2PMt3eN9rk3g">
+    <annotations xmi:id="_WGRrw-xtEe2PMt3eN9rk3g" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WGSS0-xtEe2PMt3eN9rk3g" base_Element="_WGSS0OxtEe2PMt3eN9rk3g"/>
+  <UMLLabProfile:Annotations xmi:id="_WGSS1OxtEe2PMt3eN9rk3g" base_Element="_WGSS0OxtEe2PMt3eN9rk3g">
+    <annotations xmi:id="_WGSS1extEe2PMt3eN9rk3g" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WGTg8OxtEe2PMt3eN9rk3g" base_Element="_WGS54OxtEe2PMt3eN9rk3g"/>
+  <UMLLabProfile:Annotations xmi:id="_WGTg8extEe2PMt3eN9rk3g" base_Element="_WGS54OxtEe2PMt3eN9rk3g">
+    <annotations xmi:id="_WGTg8uxtEe2PMt3eN9rk3g" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WGUIAOxtEe2PMt3eN9rk3g" base_Element="_WGTg8-xtEe2PMt3eN9rk3g"/>
+  <UMLLabProfile:Annotations xmi:id="_WGUIAextEe2PMt3eN9rk3g" base_Element="_WGTg8-xtEe2PMt3eN9rk3g">
+    <annotations xmi:id="_WGUIAuxtEe2PMt3eN9rk3g" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WGUvEuxtEe2PMt3eN9rk3g" base_Element="_WGUIBOxtEe2PMt3eN9rk3g"/>
+  <UMLLabProfile:Annotations xmi:id="_WGVWIOxtEe2PMt3eN9rk3g" base_Element="_WGUIBOxtEe2PMt3eN9rk3g">
+    <annotations xmi:id="_WGVWIextEe2PMt3eN9rk3g" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WGVWJextEe2PMt3eN9rk3g" base_Element="_WGVWIuxtEe2PMt3eN9rk3g"/>
+  <UMLLabProfile:Annotations xmi:id="_WGV9MOxtEe2PMt3eN9rk3g" base_Element="_WGVWIuxtEe2PMt3eN9rk3g">
+    <annotations xmi:id="_WGV9MextEe2PMt3eN9rk3g" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WGV9NOxtEe2PMt3eN9rk3g" base_Element="_WGV9MuxtEe2PMt3eN9rk3g"/>
+  <UMLLabProfile:Annotations xmi:id="_WGWkQOxtEe2PMt3eN9rk3g" base_Element="_WGV9MuxtEe2PMt3eN9rk3g">
+    <annotations xmi:id="_WGWkQextEe2PMt3eN9rk3g" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WGZAguxtEe2PMt3eN9rk3g" base_Element="_WGZAgOxtEe2PMt3eN9rk3g"/>
+  <UMLLabProfile:Annotations xmi:id="_WGZnkOxtEe2PMt3eN9rk3g" base_Element="_WGZAgOxtEe2PMt3eN9rk3g">
+    <annotations xmi:id="_WGZnkextEe2PMt3eN9rk3g" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WGa1sextEe2PMt3eN9rk3g" base_Element="_WGa1sOxtEe2PMt3eN9rk3g"/>
+  <UMLLabProfile:Annotations xmi:id="_WGbcwOxtEe2PMt3eN9rk3g" base_Element="_WGa1sOxtEe2PMt3eN9rk3g">
+    <annotations xmi:id="_WGbcwextEe2PMt3eN9rk3g" name="Before"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WGbcw-xtEe2PMt3eN9rk3g" base_Element="_WGbcwuxtEe2PMt3eN9rk3g"/>
+  <UMLLabProfile:Annotations xmi:id="_WGcD0OxtEe2PMt3eN9rk3g" base_Element="_WGbcwuxtEe2PMt3eN9rk3g">
+    <annotations xmi:id="_WGcD0extEe2PMt3eN9rk3g" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WGcD0-xtEe2PMt3eN9rk3g" base_Element="_WGcD0uxtEe2PMt3eN9rk3g"/>
+  <UMLLabProfile:Annotations xmi:id="_WGcq4OxtEe2PMt3eN9rk3g" base_Element="_WGcD0uxtEe2PMt3eN9rk3g">
+    <annotations xmi:id="_WGcq4extEe2PMt3eN9rk3g" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WGcq4-xtEe2PMt3eN9rk3g" base_Element="_WGcq4uxtEe2PMt3eN9rk3g"/>
+  <UMLLabProfile:Annotations xmi:id="_WGcq5OxtEe2PMt3eN9rk3g" base_Element="_WGcq4uxtEe2PMt3eN9rk3g">
+    <annotations xmi:id="_WGcq5extEe2PMt3eN9rk3g" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_WGegEOxtEe2PMt3eN9rk3g" genericsValue="String, Double" base_Element="_WGd5AextEe2PMt3eN9rk3g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WGegEextEe2PMt3eN9rk3g" base_Element="_WGd5AextEe2PMt3eN9rk3g"/>
+  <UMLLabProfile:Reference xmi:id="_WHXQ4extEe2PMt3eN9rk3g" base_Element="_WHXQ4OxtEe2PMt3eN9rk3g"/>
+  <UMLLabProfile:Reference xmi:id="_WHX38OxtEe2PMt3eN9rk3g" base_Element="_WHXQ4uxtEe2PMt3eN9rk3g"/>
+  <UMLLabProfile:Reference xmi:id="_WHX38uxtEe2PMt3eN9rk3g" base_Element="_WHX38extEe2PMt3eN9rk3g"/>
+  <UMLLabProfile:Reference xmi:id="_WHYfAOxtEe2PMt3eN9rk3g" base_Element="_WHX38-xtEe2PMt3eN9rk3g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WHZGE-xtEe2PMt3eN9rk3g" base_Element="_WHZGEOxtEe2PMt3eN9rk3g"/>
+  <UMLLabProfile:Annotations xmi:id="_WHZtIOxtEe2PMt3eN9rk3g" base_Element="_WHZGEOxtEe2PMt3eN9rk3g">
+    <annotations xmi:id="_WHZtIextEe2PMt3eN9rk3g" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WHaUMOxtEe2PMt3eN9rk3g" base_Element="_WHZtIuxtEe2PMt3eN9rk3g"/>
+  <UMLLabProfile:Annotations xmi:id="_WHaUMextEe2PMt3eN9rk3g" base_Element="_WHZtIuxtEe2PMt3eN9rk3g">
+    <annotations xmi:id="_WHaUMuxtEe2PMt3eN9rk3g" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_WHbiUextEe2PMt3eN9rk3g" base_Element="_WHbiUOxtEe2PMt3eN9rk3g"/>
+  <UMLLabProfile:Reference xmi:id="_WHcJYOxtEe2PMt3eN9rk3g" base_Element="_WHbiUuxtEe2PMt3eN9rk3g"/>
+  <UMLLabProfile:Reference xmi:id="_WHcJYuxtEe2PMt3eN9rk3g" base_Element="_WHcJYextEe2PMt3eN9rk3g"/>
+  <UMLLabProfile:Reference xmi:id="_WHcwcOxtEe2PMt3eN9rk3g" base_Element="_WHcJY-xtEe2PMt3eN9rk3g"/>
+  <UMLLabProfile:Reference xmi:id="_WHcwcuxtEe2PMt3eN9rk3g" base_Element="_WHcwcextEe2PMt3eN9rk3g"/>
+  <UMLLabProfile:Reference xmi:id="_WHdXgOxtEe2PMt3eN9rk3g" base_Element="_WHcwc-xtEe2PMt3eN9rk3g"/>
+  <UMLLabProfile:Reference xmi:id="_WHd-kOxtEe2PMt3eN9rk3g" base_Element="_WHdXgextEe2PMt3eN9rk3g"/>
+  <UMLLabProfile:Reference xmi:id="_WHeloOxtEe2PMt3eN9rk3g" base_Element="_WHd-kextEe2PMt3eN9rk3g"/>
+  <UMLLabProfile:Reference xmi:id="_WHelouxtEe2PMt3eN9rk3g" base_Element="_WHeloextEe2PMt3eN9rk3g"/>
+  <UMLLabProfile:Reference xmi:id="_WHelpOxtEe2PMt3eN9rk3g" base_Element="_WHelo-xtEe2PMt3eN9rk3g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WHkFMuxtEe2PMt3eN9rk3g" base_Element="_WHkFMextEe2PMt3eN9rk3g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WHl6YOxtEe2PMt3eN9rk3g" base_Element="_WHlTUextEe2PMt3eN9rk3g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WHmhcextEe2PMt3eN9rk3g" base_Element="_WHmhcOxtEe2PMt3eN9rk3g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WHnIgOxtEe2PMt3eN9rk3g" base_Element="_WHmhc-xtEe2PMt3eN9rk3g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WHnIguxtEe2PMt3eN9rk3g" base_Element="_WHnIgextEe2PMt3eN9rk3g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WHnIhOxtEe2PMt3eN9rk3g" base_Element="_WHnIg-xtEe2PMt3eN9rk3g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WHoWoOxtEe2PMt3eN9rk3g" base_Element="_WHnvkextEe2PMt3eN9rk3g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WHoWo-xtEe2PMt3eN9rk3g" base_Element="_WHoWoextEe2PMt3eN9rk3g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WHo9sextEe2PMt3eN9rk3g" base_Element="_WHo9sOxtEe2PMt3eN9rk3g"/>
+  <uml:OpaqueBehavior xmi:id="_WHpkxOxtEe2PMt3eN9rk3g" name="Coin" specification="_WGH6wOxtEe2PMt3eN9rk3g">
+    <ownedParameter xmi:id="_WHpkxextEe2PMt3eN9rk3g" name="d">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </ownedParameter>
+    <ownedParameter xmi:id="_WHpkxuxtEe2PMt3eN9rk3g" type="_WGDpUOxtEe2PMt3eN9rk3g" direction="return"/>
+    <language>java</language>
+    <body>this.value = d;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_WHqL0OxtEe2PMt3eN9rk3g" name="getValue" specification="_WGIh0OxtEe2PMt3eN9rk3g">
+    <ownedParameter xmi:id="_WHqL0extEe2PMt3eN9rk3g" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return value;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_WHqL1-xtEe2PMt3eN9rk3g" name="Note" specification="_WGOBYOxtEe2PMt3eN9rk3g">
+    <ownedParameter xmi:id="_WHqL2OxtEe2PMt3eN9rk3g" name="d">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </ownedParameter>
+    <ownedParameter xmi:id="_WHqL2extEe2PMt3eN9rk3g" type="_WGLlIextEe2PMt3eN9rk3g" direction="return"/>
+    <language>java</language>
+    <body>this.value = d;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_WHqL2uxtEe2PMt3eN9rk3g" name="getValue" specification="_WGOBZextEe2PMt3eN9rk3g">
+    <ownedParameter xmi:id="_WHqL2-xtEe2PMt3eN9rk3g" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return value;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Reference xmi:id="_WHvrYOxtEe2PMt3eN9rk3g" base_Element="_WHvEUOxtEe2PMt3eN9rk3g"/>
+  <UMLLabProfile:Reference xmi:id="_WHwScOxtEe2PMt3eN9rk3g" base_Element="_WHvrYextEe2PMt3eN9rk3g"/>
+  <UMLLabProfile:Reference xmi:id="_WHwSc-xtEe2PMt3eN9rk3g" base_Element="_WHwScextEe2PMt3eN9rk3g"/>
+</xmi:XMI>

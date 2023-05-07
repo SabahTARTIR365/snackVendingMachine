@@ -1,0 +1,1034 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_V8wjYOxtEe2PMt3eN9rk3g">
+  <modelElement href="snackVendingMachine.uml#_WFmWUOxtEe2PMt3eN9rk3g"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_WJYDEOxtEe2PMt3eN9rk3g" sourceAnchor="135.0,0.0" targetAnchor="382.0,196.0" target="_WJgl8OxtEe2PMt3eN9rk3g" source="_WJYqKextEe2PMt3eN9rk3g">
+    <modelElement href="snackVendingMachine.uml#_WHvEUOxtEe2PMt3eN9rk3g"/>
+    <bendpoints xmi:id="_koL2AuxtEe2PMt3eN9rk3g" sourceY="-251" targetX="249"/>
+    <stereotypes xmi:id="_WJYDEextEe2PMt3eN9rk3g" name="Reference">
+      <modelElement href="snackVendingMachine.uml#_WHvrYOxtEe2PMt3eN9rk3g"/>
+    </stereotypes>
+    <nameVisual xmi:id="_WJYDEuxtEe2PMt3eN9rk3g" text="">
+      <visualProperties xmi:id="_WS9c4OxtEe2PMt3eN9rk3g" position="-29.0,172.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_WJYDE-xtEe2PMt3eN9rk3g" aggregationKind="NONE" name="">
+      <modelElement href="snackVendingMachine.uml#_WHvEUextEe2PMt3eN9rk3g"/>
+      <visualProperties xmi:id="_WS811extEe2PMt3eN9rk3g" position="-19.0,-78.0"/>
+      <visibility xmi:id="_WJYDFOxtEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJYDFextEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_WJYDFuxtEe2PMt3eN9rk3g" aggregationKind="NONE" name="vendingMachine" navigable="true">
+      <modelElement href="snackVendingMachine.uml#_WHnvkextEe2PMt3eN9rk3g"/>
+      <visualProperties xmi:id="_WS9c4extEe2PMt3eN9rk3g" position="175.0,148.0"/>
+      <visibility xmi:id="_WJYDF-xtEe2PMt3eN9rk3g" label="-"/>
+      <cardinality xmi:id="_WJYDGOxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_WJYqIOxtEe2PMt3eN9rk3g" sourceAnchor="165.0,0.0" targetAnchor="0.0,128.0" target="_WJ0H8OxtEe2PMt3eN9rk3g" source="_WJYqKextEe2PMt3eN9rk3g">
+    <modelElement href="snackVendingMachine.uml#_WHvrYextEe2PMt3eN9rk3g"/>
+    <bendpoints xmi:id="_koL2A-xtEe2PMt3eN9rk3g" sourceY="-151" targetX="-538"/>
+    <stereotypes xmi:id="_WJYqIextEe2PMt3eN9rk3g" name="Reference">
+      <modelElement href="snackVendingMachine.uml#_WHwScOxtEe2PMt3eN9rk3g"/>
+    </stereotypes>
+    <nameVisual xmi:id="_WJYqIuxtEe2PMt3eN9rk3g" text="">
+      <visualProperties xmi:id="_WS-D8extEe2PMt3eN9rk3g" position="248.5,-24.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_WJYqI-xtEe2PMt3eN9rk3g" aggregationKind="NONE" name="">
+      <modelElement href="snackVendingMachine.uml#_WHvrYuxtEe2PMt3eN9rk3g"/>
+      <visualProperties xmi:id="_WS-D8OxtEe2PMt3eN9rk3g" position="41.0,-150.0"/>
+      <visibility xmi:id="_WJYqJOxtEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJYqJextEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_WJYqJuxtEe2PMt3eN9rk3g" aggregationKind="NONE" name="controller" navigable="true">
+      <modelElement href="snackVendingMachine.uml#_WHoWoextEe2PMt3eN9rk3g"/>
+      <visualProperties xmi:id="_WS-D8uxtEe2PMt3eN9rk3g" position="-146.1428571428571,-57.00000000000006"/>
+      <visibility xmi:id="_WJYqJ-xtEe2PMt3eN9rk3g" label="-"/>
+      <cardinality xmi:id="_WJYqKOxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_WJcUgOxtEe2PMt3eN9rk3g" sourceAnchor="191.0,0.0" targetAnchor="0.0,135.0" dashed="true" superClass="_WJ3LQOxtEe2PMt3eN9rk3g" subClass="_WJgl8OxtEe2PMt3eN9rk3g">
+    <modelElement href="snackVendingMachine.uml#_WHYfAextEe2PMt3eN9rk3g"/>
+    <bendpoints xmi:id="_koL2BOxtEe2PMt3eN9rk3g" sourceY="-189" targetX="-667"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_WJewwOxtEe2PMt3eN9rk3g" sourceAnchor="334.0,0.0" targetAnchor="338.0,135.0" target="_WJ3LQOxtEe2PMt3eN9rk3g" source="_WJ0H8OxtEe2PMt3eN9rk3g">
+    <modelElement href="snackVendingMachine.uml#_WHwScextEe2PMt3eN9rk3g"/>
+    <bendpoints xmi:id="_koL2BuxtEe2PMt3eN9rk3g" sourceY="-357" targetX="337"/>
+    <stereotypes xmi:id="_WJf-4extEe2PMt3eN9rk3g" name="Reference">
+      <modelElement href="snackVendingMachine.uml#_WHwSc-xtEe2PMt3eN9rk3g"/>
+    </stereotypes>
+    <nameVisual xmi:id="_WJfX0OxtEe2PMt3eN9rk3g" text="">
+      <visualProperties xmi:id="_WS-rAextEe2PMt3eN9rk3g" position="-205.1111111111111,1.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_WJfX0extEe2PMt3eN9rk3g" aggregationKind="NONE" name="">
+      <modelElement href="snackVendingMachine.uml#_WHwScuxtEe2PMt3eN9rk3g"/>
+      <visualProperties xmi:id="_WS-rAOxtEe2PMt3eN9rk3g" position="-17.5,-98.92857142857144"/>
+      <visibility xmi:id="_WJf-4-xtEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJf-4uxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_WJf-4OxtEe2PMt3eN9rk3g" aggregationKind="NONE" name="vendingMachine" navigable="true">
+      <modelElement href="snackVendingMachine.uml#_WHo9sOxtEe2PMt3eN9rk3g"/>
+      <visualProperties xmi:id="_WS-rAuxtEe2PMt3eN9rk3g" position="71.16666666666674,-57.5"/>
+      <stereotypes xmi:id="_WJf-5uxtEe2PMt3eN9rk3g" name="LegacyStyledElement">
+        <modelElement href="snackVendingMachine.uml#_WHo9sextEe2PMt3eN9rk3g"/>
+      </stereotypes>
+      <visibility xmi:id="_WJf-5extEe2PMt3eN9rk3g" label="-"/>
+      <cardinality xmi:id="_WJf-5OxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_WJnToOxtEe2PMt3eN9rk3g" sourceAnchor="187.0,0.0" targetAnchor="337.0,59.0" superClass="_WJR8cOxtEe2PMt3eN9rk3g" subClass="_WJohwOxtEe2PMt3eN9rk3g">
+    <modelElement href="snackVendingMachine.uml#_WHU0oextEe2PMt3eN9rk3g"/>
+    <bendpoints xmi:id="_koL2BextEe2PMt3eN9rk3g" sourceY="-59" targetX="557"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_WJ9R4OxtEe2PMt3eN9rk3g" sourceAnchor="125.0,0.0" targetAnchor="79.0,0.0" dashed="true" superClass="_WJ9R4extEe2PMt3eN9rk3g" subClass="_WJU_wOxtEe2PMt3eN9rk3g">
+    <modelElement href="snackVendingMachine.uml#_WHa7QOxtEe2PMt3eN9rk3g"/>
+    <bendpoints xmi:id="_koL2AOxtEe2PMt3eN9rk3g" sourceY="-495" targetX="-966" targetY="-355"/>
+    <bendpoints xmi:id="_koL2AextEe2PMt3eN9rk3g" sourceX="966" sourceY="-495" targetY="-355"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_WJR8cOxtEe2PMt3eN9rk3g" name="VendingMachineFactory" abstractClass="true" subclassedBy="_WJnToOxtEe2PMt3eN9rk3g">
+    <modelElement href="snackVendingMachine.uml#_WGl00OxtEe2PMt3eN9rk3g"/>
+    <visualProperties xmi:id="_WJR8cextEe2PMt3eN9rk3g" position="0.0,60.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_WJR8cuxtEe2PMt3eN9rk3g" label="+"/>
+    <operations xmi:id="_WJR8c-xtEe2PMt3eN9rk3g" abstractOperation="true" name="createVendingMachine">
+      <modelElement href="snackVendingMachine.uml#_WGmb4OxtEe2PMt3eN9rk3g"/>
+      <visibility xmi:id="_WJR8dOxtEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJR8dextEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_WJR8duxtEe2PMt3eN9rk3g">
+        <modelElement href="snackVendingMachine.uml#_WHga0uxtEe2PMt3eN9rk3g"/>
+        <type xmi:id="_WJR8d-xtEe2PMt3eN9rk3g" name="VendingMachine">
+          <modelElement href="snackVendingMachine.uml#_WGfuMOxtEe2PMt3eN9rk3g"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_WJU_wOxtEe2PMt3eN9rk3g" name="CardSlot" generalizations="_WJ9R4OxtEe2PMt3eN9rk3g">
+    <modelElement href="snackVendingMachine.uml#_WGXyYOxtEe2PMt3eN9rk3g"/>
+    <visualProperties xmi:id="_WJU_wextEe2PMt3eN9rk3g" position="-71.0,-199.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_WJU_wuxtEe2PMt3eN9rk3g" label="~"/>
+    <attributes xmi:id="_WJU_w-xtEe2PMt3eN9rk3g" name="amount">
+      <modelElement href="snackVendingMachine.uml#_WHnvkOxtEe2PMt3eN9rk3g"/>
+      <visibility xmi:id="_WJU_xOxtEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJU_xextEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <type xmi:id="_WJU_xuxtEe2PMt3eN9rk3g" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_WJU_x-xtEe2PMt3eN9rk3g" name="insertCard">
+      <modelElement href="snackVendingMachine.uml#_WGYZcOxtEe2PMt3eN9rk3g"/>
+      <visibility xmi:id="_WJU_yOxtEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJU_yextEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_WJU_yuxtEe2PMt3eN9rk3g" name="amount">
+        <modelElement href="snackVendingMachine.uml#_WGYZcextEe2PMt3eN9rk3g"/>
+        <cardinality xmi:id="_WJU_y-xtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+        <type xmi:id="_WJU_zOxtEe2PMt3eN9rk3g" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_WJU_zextEe2PMt3eN9rk3g" name="getCurrency">
+      <modelElement href="snackVendingMachine.uml#_WGZAgOxtEe2PMt3eN9rk3g"/>
+      <stereotypes xmi:id="_WJU_zuxtEe2PMt3eN9rk3g" name="LegacyStyledElement">
+        <modelElement href="snackVendingMachine.uml#_WGZAguxtEe2PMt3eN9rk3g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_WJU_z-xtEe2PMt3eN9rk3g" name="Annotations">
+        <modelElement href="snackVendingMachine.uml#_WGZnkOxtEe2PMt3eN9rk3g"/>
+      </stereotypes>
+      <visibility xmi:id="_WJU_0OxtEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJU_0extEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_WJU_0uxtEe2PMt3eN9rk3g">
+        <modelElement href="snackVendingMachine.uml#_WGZAgextEe2PMt3eN9rk3g"/>
+        <type xmi:id="_WJU_0-xtEe2PMt3eN9rk3g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_WJYqKextEe2PMt3eN9rk3g" name="SnackVendingMachineTest" associationsOut="_WJYDEOxtEe2PMt3eN9rk3g _WJYqIOxtEe2PMt3eN9rk3g">
+    <modelElement href="snackVendingMachine.uml#_WGZnkuxtEe2PMt3eN9rk3g"/>
+    <visualProperties xmi:id="_WJYqKuxtEe2PMt3eN9rk3g" position="735.0,-28.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_WJYqK-xtEe2PMt3eN9rk3g" label="+"/>
+    <attributes xmi:id="_WJYqLOxtEe2PMt3eN9rk3g" name="vendingMachine">
+      <modelElement href="snackVendingMachine.uml#_WHnvkextEe2PMt3eN9rk3g"/>
+      <stereotypes xmi:id="_WJYqLextEe2PMt3eN9rk3g" name="LegacyStyledElement">
+        <modelElement href="snackVendingMachine.uml#_WHoWoOxtEe2PMt3eN9rk3g"/>
+      </stereotypes>
+      <visibility xmi:id="_WJYqLuxtEe2PMt3eN9rk3g" label="-"/>
+      <cardinality xmi:id="_WJYqL-xtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <type xmi:id="_WJYqMOxtEe2PMt3eN9rk3g" name="SnackVendingMachine">
+        <modelElement href="snackVendingMachine.uml#_WGP2k-xtEe2PMt3eN9rk3g"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_WJYqMextEe2PMt3eN9rk3g" defaultValue="new VendingMachineController(vendingMachine)" name="controller">
+      <modelElement href="snackVendingMachine.uml#_WHoWoextEe2PMt3eN9rk3g"/>
+      <stereotypes xmi:id="_WJYqMuxtEe2PMt3eN9rk3g" name="LegacyStyledElement">
+        <modelElement href="snackVendingMachine.uml#_WHoWo-xtEe2PMt3eN9rk3g"/>
+      </stereotypes>
+      <visibility xmi:id="_WJYqM-xtEe2PMt3eN9rk3g" label="-"/>
+      <cardinality xmi:id="_WJYqNOxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <type xmi:id="_WJYqNextEe2PMt3eN9rk3g" name="VendingMachineController">
+        <modelElement href="snackVendingMachine.uml#_WGixgOxtEe2PMt3eN9rk3g"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_WJYqNuxtEe2PMt3eN9rk3g" name="setUp">
+      <modelElement href="snackVendingMachine.uml#_WGa1sOxtEe2PMt3eN9rk3g"/>
+      <stereotypes xmi:id="_WJYqN-xtEe2PMt3eN9rk3g" name="LegacyStyledElement">
+        <modelElement href="snackVendingMachine.uml#_WGa1sextEe2PMt3eN9rk3g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_WJYqOOxtEe2PMt3eN9rk3g" name="Annotations">
+        <modelElement href="snackVendingMachine.uml#_WGbcwOxtEe2PMt3eN9rk3g"/>
+      </stereotypes>
+      <visibility xmi:id="_WJYqOextEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJYqOuxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_WJYqO-xtEe2PMt3eN9rk3g" name="testDisplaySnacks">
+      <modelElement href="snackVendingMachine.uml#_WGbcwuxtEe2PMt3eN9rk3g"/>
+      <stereotypes xmi:id="_WJYqPOxtEe2PMt3eN9rk3g" name="LegacyStyledElement">
+        <modelElement href="snackVendingMachine.uml#_WGbcw-xtEe2PMt3eN9rk3g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_WJYqPextEe2PMt3eN9rk3g" name="Annotations">
+        <modelElement href="snackVendingMachine.uml#_WGcD0OxtEe2PMt3eN9rk3g"/>
+      </stereotypes>
+      <visibility xmi:id="_WJYqPuxtEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJYqP-xtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_WJYqQOxtEe2PMt3eN9rk3g" name="testSelectSnack">
+      <modelElement href="snackVendingMachine.uml#_WGcD0uxtEe2PMt3eN9rk3g"/>
+      <stereotypes xmi:id="_WJYqQextEe2PMt3eN9rk3g" name="LegacyStyledElement">
+        <modelElement href="snackVendingMachine.uml#_WGcD0-xtEe2PMt3eN9rk3g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_WJYqQuxtEe2PMt3eN9rk3g" name="Annotations">
+        <modelElement href="snackVendingMachine.uml#_WGcq4OxtEe2PMt3eN9rk3g"/>
+      </stereotypes>
+      <visibility xmi:id="_WJYqQ-xtEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJYqROxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_WJYqRextEe2PMt3eN9rk3g" name="testSelectInvalidSelection">
+      <modelElement href="snackVendingMachine.uml#_WGcq4uxtEe2PMt3eN9rk3g"/>
+      <stereotypes xmi:id="_WJYqRuxtEe2PMt3eN9rk3g" name="LegacyStyledElement">
+        <modelElement href="snackVendingMachine.uml#_WGcq4-xtEe2PMt3eN9rk3g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_WJYqR-xtEe2PMt3eN9rk3g" name="Annotations">
+        <modelElement href="snackVendingMachine.uml#_WGcq5OxtEe2PMt3eN9rk3g"/>
+      </stereotypes>
+      <visibility xmi:id="_WJYqSOxtEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJYqSextEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_WJgl8OxtEe2PMt3eN9rk3g" name="SnackVendingMachine" associationsIn="_WJYDEOxtEe2PMt3eN9rk3g" generalizations="_WJcUgOxtEe2PMt3eN9rk3g">
+    <modelElement href="snackVendingMachine.uml#_WGP2k-xtEe2PMt3eN9rk3g"/>
+    <visualProperties xmi:id="_WJgl8extEe2PMt3eN9rk3g" position="239.0,-475.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_WJgl8uxtEe2PMt3eN9rk3g" label="+"/>
+    <attributes xmi:id="_WJgl8-xtEe2PMt3eN9rk3g" name="snacks">
+      <modelElement href="snackVendingMachine.uml#_WHmhcOxtEe2PMt3eN9rk3g"/>
+      <stereotypes xmi:id="_WJgl9OxtEe2PMt3eN9rk3g" name="LegacyStyledElement">
+        <modelElement href="snackVendingMachine.uml#_WHmhcextEe2PMt3eN9rk3g"/>
+      </stereotypes>
+      <visibility xmi:id="_WJgl9extEe2PMt3eN9rk3g" label="-"/>
+      <cardinality xmi:id="_WJgl9uxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <type xmi:id="_WJgl9-xtEe2PMt3eN9rk3g" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_WJgl-OxtEe2PMt3eN9rk3g" name="selectedSnackPrice">
+      <modelElement href="snackVendingMachine.uml#_WHmhc-xtEe2PMt3eN9rk3g"/>
+      <stereotypes xmi:id="_WJgl-extEe2PMt3eN9rk3g" name="LegacyStyledElement">
+        <modelElement href="snackVendingMachine.uml#_WHnIgOxtEe2PMt3eN9rk3g"/>
+      </stereotypes>
+      <visibility xmi:id="_WJgl-uxtEe2PMt3eN9rk3g" label="-"/>
+      <cardinality xmi:id="_WJgl--xtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <type xmi:id="_WJgl_OxtEe2PMt3eN9rk3g" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_WJgl_extEe2PMt3eN9rk3g" name="acceptedMoney">
+      <modelElement href="snackVendingMachine.uml#_WHnIgextEe2PMt3eN9rk3g"/>
+      <stereotypes xmi:id="_WJgl_uxtEe2PMt3eN9rk3g" name="LegacyStyledElement">
+        <modelElement href="snackVendingMachine.uml#_WHnIguxtEe2PMt3eN9rk3g"/>
+      </stereotypes>
+      <visibility xmi:id="_WJgl_-xtEe2PMt3eN9rk3g" label="-"/>
+      <cardinality xmi:id="_WJgmAOxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <type xmi:id="_WJgmAextEe2PMt3eN9rk3g" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_WJgmAuxtEe2PMt3eN9rk3g" name="isTransactionInProgress">
+      <modelElement href="snackVendingMachine.uml#_WHnIg-xtEe2PMt3eN9rk3g"/>
+      <stereotypes xmi:id="_WJgmA-xtEe2PMt3eN9rk3g" name="LegacyStyledElement">
+        <modelElement href="snackVendingMachine.uml#_WHnIhOxtEe2PMt3eN9rk3g"/>
+      </stereotypes>
+      <visibility xmi:id="_WJgmBOxtEe2PMt3eN9rk3g" label="-"/>
+      <cardinality xmi:id="_WJgmBextEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <type xmi:id="_WJgmBuxtEe2PMt3eN9rk3g" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_WJgmB-xtEe2PMt3eN9rk3g" name="SnackVendingMachine">
+      <modelElement href="snackVendingMachine.uml#_WGREsOxtEe2PMt3eN9rk3g"/>
+      <keywords xmi:id="_WJgmCOxtEe2PMt3eN9rk3g" keyword="create"/>
+      <visibility xmi:id="_WJgmCextEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJgmCuxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_WJgmC-xtEe2PMt3eN9rk3g">
+        <modelElement href="snackVendingMachine.uml#_WGREs-xtEe2PMt3eN9rk3g"/>
+        <type xmi:id="_WJgmDOxtEe2PMt3eN9rk3g" name="SnackVendingMachine">
+          <modelElement href="snackVendingMachine.uml#_WGP2k-xtEe2PMt3eN9rk3g"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_WJgmDextEe2PMt3eN9rk3g" name="displaySnacks">
+      <modelElement href="snackVendingMachine.uml#_WGRrwOxtEe2PMt3eN9rk3g"/>
+      <stereotypes xmi:id="_WJgmDuxtEe2PMt3eN9rk3g" name="LegacyStyledElement">
+        <modelElement href="snackVendingMachine.uml#_WGRrwextEe2PMt3eN9rk3g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_WJgmD-xtEe2PMt3eN9rk3g" name="Annotations">
+        <modelElement href="snackVendingMachine.uml#_WGRrwuxtEe2PMt3eN9rk3g"/>
+      </stereotypes>
+      <visibility xmi:id="_WJgmEOxtEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJgmEextEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_WJgmEuxtEe2PMt3eN9rk3g" name="selectSnack">
+      <modelElement href="snackVendingMachine.uml#_WGSS0OxtEe2PMt3eN9rk3g"/>
+      <stereotypes xmi:id="_WJgmE-xtEe2PMt3eN9rk3g" name="LegacyStyledElement">
+        <modelElement href="snackVendingMachine.uml#_WGSS0-xtEe2PMt3eN9rk3g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_WJgmFOxtEe2PMt3eN9rk3g" name="Annotations">
+        <modelElement href="snackVendingMachine.uml#_WGSS1OxtEe2PMt3eN9rk3g"/>
+      </stereotypes>
+      <visibility xmi:id="_WJgmFextEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJgmFuxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_WJgmF-xtEe2PMt3eN9rk3g" name="row">
+        <modelElement href="snackVendingMachine.uml#_WGSS0extEe2PMt3eN9rk3g"/>
+        <cardinality xmi:id="_WJgmGOxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+        <type xmi:id="_WJgmGextEe2PMt3eN9rk3g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_WJgmGuxtEe2PMt3eN9rk3g" name="column">
+        <modelElement href="snackVendingMachine.uml#_WGSS0uxtEe2PMt3eN9rk3g"/>
+        <cardinality xmi:id="_WJgmG-xtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+        <type xmi:id="_WJgmHOxtEe2PMt3eN9rk3g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_WJgmHextEe2PMt3eN9rk3g" name="insertCard">
+      <modelElement href="snackVendingMachine.uml#_WGS54OxtEe2PMt3eN9rk3g"/>
+      <stereotypes xmi:id="_WJgmHuxtEe2PMt3eN9rk3g" name="LegacyStyledElement">
+        <modelElement href="snackVendingMachine.uml#_WGTg8OxtEe2PMt3eN9rk3g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_WJgmH-xtEe2PMt3eN9rk3g" name="Annotations">
+        <modelElement href="snackVendingMachine.uml#_WGTg8extEe2PMt3eN9rk3g"/>
+      </stereotypes>
+      <visibility xmi:id="_WJgmIOxtEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJgmIextEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_WJgmIuxtEe2PMt3eN9rk3g">
+        <modelElement href="snackVendingMachine.uml#_WGS54uxtEe2PMt3eN9rk3g"/>
+        <type xmi:id="_WJgmI-xtEe2PMt3eN9rk3g" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_WJgmJOxtEe2PMt3eN9rk3g" name="amount">
+        <modelElement href="snackVendingMachine.uml#_WGS54extEe2PMt3eN9rk3g"/>
+        <cardinality xmi:id="_WJgmJextEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+        <type xmi:id="_WJgmJuxtEe2PMt3eN9rk3g" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_WJgmJ-xtEe2PMt3eN9rk3g" name="cancelTransaction">
+      <modelElement href="snackVendingMachine.uml#_WGTg8-xtEe2PMt3eN9rk3g"/>
+      <stereotypes xmi:id="_WJgmKOxtEe2PMt3eN9rk3g" name="LegacyStyledElement">
+        <modelElement href="snackVendingMachine.uml#_WGUIAOxtEe2PMt3eN9rk3g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_WJgmKextEe2PMt3eN9rk3g" name="Annotations">
+        <modelElement href="snackVendingMachine.uml#_WGUIAextEe2PMt3eN9rk3g"/>
+      </stereotypes>
+      <visibility xmi:id="_WJgmKuxtEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJgmK-xtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_WJgmLOxtEe2PMt3eN9rk3g" name="resetTransaction">
+      <modelElement href="snackVendingMachine.uml#_WGUIA-xtEe2PMt3eN9rk3g"/>
+      <visibility xmi:id="_WJgmLextEe2PMt3eN9rk3g" label="-"/>
+      <cardinality xmi:id="_WJgmLuxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_WJgmL-xtEe2PMt3eN9rk3g" name="getItem">
+      <modelElement href="snackVendingMachine.uml#_WGUIBOxtEe2PMt3eN9rk3g"/>
+      <stereotypes xmi:id="_WJgmMOxtEe2PMt3eN9rk3g" name="LegacyStyledElement">
+        <modelElement href="snackVendingMachine.uml#_WGUvEuxtEe2PMt3eN9rk3g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_WJgmMextEe2PMt3eN9rk3g" name="Annotations">
+        <modelElement href="snackVendingMachine.uml#_WGVWIOxtEe2PMt3eN9rk3g"/>
+      </stereotypes>
+      <visibility xmi:id="_WJgmMuxtEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJgmM-xtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_WJgmNOxtEe2PMt3eN9rk3g">
+        <modelElement href="snackVendingMachine.uml#_WHaUM-xtEe2PMt3eN9rk3g"/>
+        <type xmi:id="_WJgmNextEe2PMt3eN9rk3g" name="Snack">
+          <modelElement href="snackVendingMachine.uml#_WGPPgOxtEe2PMt3eN9rk3g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_WJgmNuxtEe2PMt3eN9rk3g" name="row">
+        <modelElement href="snackVendingMachine.uml#_WGUvEOxtEe2PMt3eN9rk3g"/>
+        <cardinality xmi:id="_WJgmN-xtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+        <type xmi:id="_WJgmOOxtEe2PMt3eN9rk3g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_WJgmOextEe2PMt3eN9rk3g" name="column">
+        <modelElement href="snackVendingMachine.uml#_WGUvEextEe2PMt3eN9rk3g"/>
+        <cardinality xmi:id="_WJgmOuxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+        <type xmi:id="_WJgmO-xtEe2PMt3eN9rk3g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_WJgmPOxtEe2PMt3eN9rk3g" name="dispenseItem">
+      <modelElement href="snackVendingMachine.uml#_WGVWIuxtEe2PMt3eN9rk3g"/>
+      <stereotypes xmi:id="_WJgmPextEe2PMt3eN9rk3g" name="LegacyStyledElement">
+        <modelElement href="snackVendingMachine.uml#_WGVWJextEe2PMt3eN9rk3g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_WJgmPuxtEe2PMt3eN9rk3g" name="Annotations">
+        <modelElement href="snackVendingMachine.uml#_WGV9MOxtEe2PMt3eN9rk3g"/>
+      </stereotypes>
+      <visibility xmi:id="_WJgmP-xtEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJgmQOxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_WJgmQextEe2PMt3eN9rk3g" name="row">
+        <modelElement href="snackVendingMachine.uml#_WGVWI-xtEe2PMt3eN9rk3g"/>
+        <cardinality xmi:id="_WJgmQuxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+        <type xmi:id="_WJgmQ-xtEe2PMt3eN9rk3g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_WJgmROxtEe2PMt3eN9rk3g" name="column">
+        <modelElement href="snackVendingMachine.uml#_WGVWJOxtEe2PMt3eN9rk3g"/>
+        <cardinality xmi:id="_WJgmRextEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+        <type xmi:id="_WJgmRuxtEe2PMt3eN9rk3g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_WJgmR-xtEe2PMt3eN9rk3g" name="loadSnackPricesFromFile">
+      <modelElement href="snackVendingMachine.uml#_WGV9MuxtEe2PMt3eN9rk3g"/>
+      <stereotypes xmi:id="_WJgmSOxtEe2PMt3eN9rk3g" name="LegacyStyledElement">
+        <modelElement href="snackVendingMachine.uml#_WGV9NOxtEe2PMt3eN9rk3g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_WJgmSextEe2PMt3eN9rk3g" name="Annotations">
+        <modelElement href="snackVendingMachine.uml#_WGWkQOxtEe2PMt3eN9rk3g"/>
+      </stereotypes>
+      <visibility xmi:id="_WJgmSuxtEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJgmS-xtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_WJgmTOxtEe2PMt3eN9rk3g" name="filePath">
+        <modelElement href="snackVendingMachine.uml#_WGV9M-xtEe2PMt3eN9rk3g"/>
+        <cardinality xmi:id="_WJgmTextEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+        <type xmi:id="_WJgmTuxtEe2PMt3eN9rk3g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_WJgmT-xtEe2PMt3eN9rk3g" name="insertCoin">
+      <modelElement href="snackVendingMachine.uml#_WHZGEOxtEe2PMt3eN9rk3g"/>
+      <stereotypes xmi:id="_WJgmUOxtEe2PMt3eN9rk3g" name="LegacyStyledElement">
+        <modelElement href="snackVendingMachine.uml#_WHZGE-xtEe2PMt3eN9rk3g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_WJgmUextEe2PMt3eN9rk3g" name="Annotations">
+        <modelElement href="snackVendingMachine.uml#_WHZtIOxtEe2PMt3eN9rk3g"/>
+      </stereotypes>
+      <visibility xmi:id="_WJgmUuxtEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJgmU-xtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_WJgmVOxtEe2PMt3eN9rk3g">
+        <modelElement href="snackVendingMachine.uml#_WHZGEuxtEe2PMt3eN9rk3g"/>
+        <type xmi:id="_WJgmVextEe2PMt3eN9rk3g" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_WJgmVuxtEe2PMt3eN9rk3g" name="coin">
+        <modelElement href="snackVendingMachine.uml#_WHZGEextEe2PMt3eN9rk3g"/>
+        <cardinality xmi:id="_WJgmV-xtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+        <type xmi:id="_WJgmWOxtEe2PMt3eN9rk3g" name="Coin">
+          <modelElement href="snackVendingMachine.uml#_WGDpUOxtEe2PMt3eN9rk3g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_WJgmWextEe2PMt3eN9rk3g" name="insertNote">
+      <modelElement href="snackVendingMachine.uml#_WHZtIuxtEe2PMt3eN9rk3g"/>
+      <stereotypes xmi:id="_WJgmWuxtEe2PMt3eN9rk3g" name="LegacyStyledElement">
+        <modelElement href="snackVendingMachine.uml#_WHaUMOxtEe2PMt3eN9rk3g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_WJgmW-xtEe2PMt3eN9rk3g" name="Annotations">
+        <modelElement href="snackVendingMachine.uml#_WHaUMextEe2PMt3eN9rk3g"/>
+      </stereotypes>
+      <visibility xmi:id="_WJgmXOxtEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJgmXextEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_WJgmXuxtEe2PMt3eN9rk3g">
+        <modelElement href="snackVendingMachine.uml#_WHZtJOxtEe2PMt3eN9rk3g"/>
+        <type xmi:id="_WJgmX-xtEe2PMt3eN9rk3g" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_WJgmYOxtEe2PMt3eN9rk3g" name="note">
+        <modelElement href="snackVendingMachine.uml#_WHZtI-xtEe2PMt3eN9rk3g"/>
+        <cardinality xmi:id="_WJgmYextEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+        <type xmi:id="_WJgmYuxtEe2PMt3eN9rk3g" name="Note">
+          <modelElement href="snackVendingMachine.uml#_WGLlIextEe2PMt3eN9rk3g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_WJohwOxtEe2PMt3eN9rk3g" name="SnackVendingMachineFactory" generalizations="_WJnToOxtEe2PMt3eN9rk3g">
+    <modelElement href="snackVendingMachine.uml#_WGB0IOxtEe2PMt3eN9rk3g"/>
+    <visualProperties xmi:id="_WJohwextEe2PMt3eN9rk3g" position="707.0,178.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_WJohwuxtEe2PMt3eN9rk3g" label="+"/>
+    <operations xmi:id="_WJohw-xtEe2PMt3eN9rk3g" name="createVendingMachine">
+      <modelElement href="snackVendingMachine.uml#_WGCbMOxtEe2PMt3eN9rk3g"/>
+      <stereotypes xmi:id="_WJohxOxtEe2PMt3eN9rk3g" name="LegacyStyledElement">
+        <modelElement href="snackVendingMachine.uml#_WGCbMextEe2PMt3eN9rk3g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_WJohxextEe2PMt3eN9rk3g" name="Annotations">
+        <modelElement href="snackVendingMachine.uml#_WGDCQOxtEe2PMt3eN9rk3g"/>
+      </stereotypes>
+      <visibility xmi:id="_WJohxuxtEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJohx-xtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_WJohyOxtEe2PMt3eN9rk3g">
+        <modelElement href="snackVendingMachine.uml#_WHU0oOxtEe2PMt3eN9rk3g"/>
+        <type xmi:id="_WJohyextEe2PMt3eN9rk3g" name="VendingMachine">
+          <modelElement href="snackVendingMachine.uml#_WGfuMOxtEe2PMt3eN9rk3g"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_WJqW8OxtEe2PMt3eN9rk3g" name="SnacksData">
+    <modelElement href="snackVendingMachine.uml#_WGd5AOxtEe2PMt3eN9rk3g"/>
+    <visualProperties xmi:id="_WJqW8extEe2PMt3eN9rk3g" position="759.0,309.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_WJqW8uxtEe2PMt3eN9rk3g" label="+"/>
+    <operations xmi:id="_WJqW8-xtEe2PMt3eN9rk3g" name="set" staticOperation="true">
+      <modelElement href="snackVendingMachine.uml#_WGd5AextEe2PMt3eN9rk3g"/>
+      <stereotypes xmi:id="_WJqW9OxtEe2PMt3eN9rk3g" name="Generics">
+        <modelElement href="snackVendingMachine.uml#_WGegEOxtEe2PMt3eN9rk3g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_WJqW9extEe2PMt3eN9rk3g" name="LegacyStyledElement">
+        <modelElement href="snackVendingMachine.uml#_WGegEextEe2PMt3eN9rk3g"/>
+      </stereotypes>
+      <visibility xmi:id="_WJqW9uxtEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJqW9-xtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_WJqW-OxtEe2PMt3eN9rk3g">
+        <modelElement href="snackVendingMachine.uml#_WHiQAOxtEe2PMt3eN9rk3g"/>
+        <type xmi:id="_WJqW-extEe2PMt3eN9rk3g" name="Map">
+          <modelElement href="snackVendingMachine.uml#_WHX38-xtEe2PMt3eN9rk3g"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_WJqW-uxtEe2PMt3eN9rk3g" name="jsonReader">
+      <modelElement href="snackVendingMachine.uml#_WGfHIOxtEe2PMt3eN9rk3g"/>
+      <visibility xmi:id="_WJqW--xtEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJqW_OxtEe2PMt3eN9rk3g" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_WJqW_extEe2PMt3eN9rk3g">
+        <modelElement href="snackVendingMachine.uml#_WGfHIextEe2PMt3eN9rk3g"/>
+        <type xmi:id="_WJqW_uxtEe2PMt3eN9rk3g" name="Snack">
+          <modelElement href="snackVendingMachine.uml#_WGPPgOxtEe2PMt3eN9rk3g"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_WJszMOxtEe2PMt3eN9rk3g" name="Note">
+    <modelElement href="snackVendingMachine.uml#_WGLlIextEe2PMt3eN9rk3g"/>
+    <visualProperties xmi:id="_WJszMextEe2PMt3eN9rk3g" position="1096.0,-131.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_WJszMuxtEe2PMt3eN9rk3g" name="EnumExtension">
+      <modelElement href="snackVendingMachine.uml#_WGMzQOxtEe2PMt3eN9rk3g"/>
+    </stereotypes>
+    <visibility xmi:id="_WJszM-xtEe2PMt3eN9rk3g" label="~"/>
+    <attributes xmi:id="_WJszNOxtEe2PMt3eN9rk3g" name="value">
+      <modelElement href="snackVendingMachine.uml#_WHlTUextEe2PMt3eN9rk3g"/>
+      <stereotypes xmi:id="_WJszNextEe2PMt3eN9rk3g" name="LegacyStyledElement">
+        <modelElement href="snackVendingMachine.uml#_WHl6YOxtEe2PMt3eN9rk3g"/>
+      </stereotypes>
+      <visibility xmi:id="_WJszNuxtEe2PMt3eN9rk3g" label="-"/>
+      <cardinality xmi:id="_WJszN-xtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <type xmi:id="_WJszOOxtEe2PMt3eN9rk3g" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_WJszOextEe2PMt3eN9rk3g" name="Note">
+      <modelElement href="snackVendingMachine.uml#_WGOBYOxtEe2PMt3eN9rk3g"/>
+      <keywords xmi:id="_WJszOuxtEe2PMt3eN9rk3g" keyword="create"/>
+      <visibility xmi:id="_WJszO-xtEe2PMt3eN9rk3g" label="~"/>
+      <cardinality xmi:id="_WJszPOxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_WJszPextEe2PMt3eN9rk3g">
+        <modelElement href="snackVendingMachine.uml#_WGOBZOxtEe2PMt3eN9rk3g"/>
+        <type xmi:id="_WJszPuxtEe2PMt3eN9rk3g" name="Note">
+          <modelElement href="snackVendingMachine.uml#_WGLlIextEe2PMt3eN9rk3g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_WJszP-xtEe2PMt3eN9rk3g" name="d">
+        <modelElement href="snackVendingMachine.uml#_WGOBYextEe2PMt3eN9rk3g"/>
+        <cardinality xmi:id="_WJszQOxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+        <type xmi:id="_WJszQextEe2PMt3eN9rk3g" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_WJszQuxtEe2PMt3eN9rk3g" name="getValue">
+      <modelElement href="snackVendingMachine.uml#_WGOBZextEe2PMt3eN9rk3g"/>
+      <visibility xmi:id="_WJszQ-xtEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJszROxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_WJszRextEe2PMt3eN9rk3g">
+        <modelElement href="snackVendingMachine.uml#_WGOBZuxtEe2PMt3eN9rk3g"/>
+        <type xmi:id="_WJszRuxtEe2PMt3eN9rk3g" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <literals xmi:id="_WJszR-xtEe2PMt3eN9rk3g" name="Twenty_DOLLAR">
+      <modelElement href="snackVendingMachine.uml#_WGNaUOxtEe2PMt3eN9rk3g"/>
+    </literals>
+    <literals xmi:id="_WJszSOxtEe2PMt3eN9rk3g" name="FIFTY_DOLLAR">
+      <modelElement href="snackVendingMachine.uml#_WGNaUuxtEe2PMt3eN9rk3g"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_WJv2gOxtEe2PMt3eN9rk3g" name="NoteSlot">
+    <modelElement href="snackVendingMachine.uml#_WGMzQextEe2PMt3eN9rk3g"/>
+    <visualProperties xmi:id="_WJv2gextEe2PMt3eN9rk3g" position="455.0,-13.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_WJv2guxtEe2PMt3eN9rk3g" keyword="sameFile"/>
+    <visibility xmi:id="_WJv2g-xtEe2PMt3eN9rk3g" label="~"/>
+    <attributes xmi:id="_WJv2hOxtEe2PMt3eN9rk3g" name="amount">
+      <modelElement href="snackVendingMachine.uml#_WHlTUOxtEe2PMt3eN9rk3g"/>
+      <visibility xmi:id="_WJv2hextEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJv2huxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <type xmi:id="_WJv2h-xtEe2PMt3eN9rk3g" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_WJv2iOxtEe2PMt3eN9rk3g" name="insertNote">
+      <modelElement href="snackVendingMachine.uml#_WHWCwOxtEe2PMt3eN9rk3g"/>
+      <visibility xmi:id="_WJv2iextEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJv2iuxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_WJv2i-xtEe2PMt3eN9rk3g" name="note">
+        <modelElement href="snackVendingMachine.uml#_WHWp0OxtEe2PMt3eN9rk3g"/>
+        <cardinality xmi:id="_WJv2jOxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+        <type xmi:id="_WJv2jextEe2PMt3eN9rk3g" name="Note">
+          <modelElement href="snackVendingMachine.uml#_WGLlIextEe2PMt3eN9rk3g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_WJxrsOxtEe2PMt3eN9rk3g" name="Snack">
+    <modelElement href="snackVendingMachine.uml#_WGPPgOxtEe2PMt3eN9rk3g"/>
+    <visualProperties xmi:id="_WJxrsextEe2PMt3eN9rk3g" position="1162.0,172.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_WJxrsuxtEe2PMt3eN9rk3g" label="~"/>
+    <attributes xmi:id="_WJxrs-xtEe2PMt3eN9rk3g" name="name">
+      <modelElement href="snackVendingMachine.uml#_WHl6YextEe2PMt3eN9rk3g"/>
+      <visibility xmi:id="_WJxrtOxtEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJxrtextEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <type xmi:id="_WJxrtuxtEe2PMt3eN9rk3g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_WJxrt-xtEe2PMt3eN9rk3g" name="price">
+      <modelElement href="snackVendingMachine.uml#_WHl6YuxtEe2PMt3eN9rk3g"/>
+      <visibility xmi:id="_WJxruOxtEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJxruextEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <type xmi:id="_WJxruuxtEe2PMt3eN9rk3g" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_WJxru-xtEe2PMt3eN9rk3g" name="Snack">
+      <modelElement href="snackVendingMachine.uml#_WGPPgextEe2PMt3eN9rk3g"/>
+      <keywords xmi:id="_WJxrvOxtEe2PMt3eN9rk3g" keyword="create"/>
+      <visibility xmi:id="_WJxrvextEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJxrvuxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_WJxrv-xtEe2PMt3eN9rk3g">
+        <modelElement href="snackVendingMachine.uml#_WGP2kuxtEe2PMt3eN9rk3g"/>
+        <type xmi:id="_WJxrwOxtEe2PMt3eN9rk3g" name="Snack">
+          <modelElement href="snackVendingMachine.uml#_WGPPgOxtEe2PMt3eN9rk3g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_WJxrwextEe2PMt3eN9rk3g" name="name">
+        <modelElement href="snackVendingMachine.uml#_WGPPguxtEe2PMt3eN9rk3g"/>
+        <cardinality xmi:id="_WJxrwuxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+        <type xmi:id="_WJxrw-xtEe2PMt3eN9rk3g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_WJxrxOxtEe2PMt3eN9rk3g" name="price">
+        <modelElement href="snackVendingMachine.uml#_WGPPg-xtEe2PMt3eN9rk3g"/>
+        <cardinality xmi:id="_WJxrxextEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+        <type xmi:id="_WJxrxuxtEe2PMt3eN9rk3g" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_WJ3LQOxtEe2PMt3eN9rk3g" name="VendingMachine" associationsIn="_WJewwOxtEe2PMt3eN9rk3g" subclassedBy="_WJcUgOxtEe2PMt3eN9rk3g">
+    <modelElement href="snackVendingMachine.uml#_WGfuMOxtEe2PMt3eN9rk3g"/>
+    <visualProperties xmi:id="_WJ3LQextEe2PMt3eN9rk3g" position="1097.0,-799.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_WJ3LQuxtEe2PMt3eN9rk3g" label="~"/>
+    <operations xmi:id="_WJ3LQ-xtEe2PMt3eN9rk3g" name="displaySnacks">
+      <modelElement href="snackVendingMachine.uml#_WGfuMextEe2PMt3eN9rk3g"/>
+      <visibility xmi:id="_WJ3LROxtEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJ3LRextEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_WJ3LRuxtEe2PMt3eN9rk3g" name="selectSnack">
+      <modelElement href="snackVendingMachine.uml#_WGgVQOxtEe2PMt3eN9rk3g"/>
+      <visibility xmi:id="_WJ3LR-xtEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJ3LSOxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_WJ3LSextEe2PMt3eN9rk3g" name="row">
+        <modelElement href="snackVendingMachine.uml#_WGgVQextEe2PMt3eN9rk3g"/>
+        <cardinality xmi:id="_WJ3LSuxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+        <type xmi:id="_WJ3LS-xtEe2PMt3eN9rk3g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_WJ3LTOxtEe2PMt3eN9rk3g" name="column">
+        <modelElement href="snackVendingMachine.uml#_WGgVQuxtEe2PMt3eN9rk3g"/>
+        <cardinality xmi:id="_WJ3LTextEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+        <type xmi:id="_WJ3LTuxtEe2PMt3eN9rk3g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_WJ3LT-xtEe2PMt3eN9rk3g" name="dispenseItem">
+      <modelElement href="snackVendingMachine.uml#_WGgVQ-xtEe2PMt3eN9rk3g"/>
+      <visibility xmi:id="_WJ3LUOxtEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJ3LUextEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_WJ3LUuxtEe2PMt3eN9rk3g" name="row">
+        <modelElement href="snackVendingMachine.uml#_WGgVROxtEe2PMt3eN9rk3g"/>
+        <cardinality xmi:id="_WJ3LU-xtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+        <type xmi:id="_WJ3LVOxtEe2PMt3eN9rk3g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_WJ3LVextEe2PMt3eN9rk3g" name="column">
+        <modelElement href="snackVendingMachine.uml#_WGgVRextEe2PMt3eN9rk3g"/>
+        <cardinality xmi:id="_WJ3LVuxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+        <type xmi:id="_WJ3LV-xtEe2PMt3eN9rk3g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_WJ3LWOxtEe2PMt3eN9rk3g" name="getItem">
+      <modelElement href="snackVendingMachine.uml#_WGg8UOxtEe2PMt3eN9rk3g"/>
+      <visibility xmi:id="_WJ3LWextEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJ3LWuxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_WJ3LW-xtEe2PMt3eN9rk3g">
+        <modelElement href="snackVendingMachine.uml#_WHfMsOxtEe2PMt3eN9rk3g"/>
+        <type xmi:id="_WJ3LXOxtEe2PMt3eN9rk3g" name="Snack">
+          <modelElement href="snackVendingMachine.uml#_WGPPgOxtEe2PMt3eN9rk3g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_WJ3LXextEe2PMt3eN9rk3g" name="row">
+        <modelElement href="snackVendingMachine.uml#_WGg8UextEe2PMt3eN9rk3g"/>
+        <cardinality xmi:id="_WJ3LXuxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+        <type xmi:id="_WJ3LX-xtEe2PMt3eN9rk3g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_WJ3LYOxtEe2PMt3eN9rk3g" name="column">
+        <modelElement href="snackVendingMachine.uml#_WGg8UuxtEe2PMt3eN9rk3g"/>
+        <cardinality xmi:id="_WJ3LYextEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+        <type xmi:id="_WJ3LYuxtEe2PMt3eN9rk3g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_WJ3LY-xtEe2PMt3eN9rk3g" name="insertCard">
+      <modelElement href="snackVendingMachine.uml#_WGhjYOxtEe2PMt3eN9rk3g"/>
+      <visibility xmi:id="_WJ3LZOxtEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJ3LZextEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_WJ3LZuxtEe2PMt3eN9rk3g">
+        <modelElement href="snackVendingMachine.uml#_WGhjYuxtEe2PMt3eN9rk3g"/>
+        <type xmi:id="_WJ3LZ-xtEe2PMt3eN9rk3g" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_WJ3LaOxtEe2PMt3eN9rk3g" name="amount">
+        <modelElement href="snackVendingMachine.uml#_WGhjYextEe2PMt3eN9rk3g"/>
+        <cardinality xmi:id="_WJ3LaextEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+        <type xmi:id="_WJ3LauxtEe2PMt3eN9rk3g" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_WJ3La-xtEe2PMt3eN9rk3g" name="cancelTransaction">
+      <modelElement href="snackVendingMachine.uml#_WGhjY-xtEe2PMt3eN9rk3g"/>
+      <visibility xmi:id="_WJ3LbOxtEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJ3LbextEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_WJ3LbuxtEe2PMt3eN9rk3g" name="loadSnackPricesFromFile">
+      <modelElement href="snackVendingMachine.uml#_WGhjZOxtEe2PMt3eN9rk3g"/>
+      <visibility xmi:id="_WJ3Lb-xtEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJ3LcOxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_WJ3LcextEe2PMt3eN9rk3g" name="filePath">
+        <modelElement href="snackVendingMachine.uml#_WGiKcOxtEe2PMt3eN9rk3g"/>
+        <cardinality xmi:id="_WJ3LcuxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+        <type xmi:id="_WJ3Lc-xtEe2PMt3eN9rk3g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_WJ3LdOxtEe2PMt3eN9rk3g" name="insertCoin">
+      <modelElement href="snackVendingMachine.uml#_WHfMsextEe2PMt3eN9rk3g"/>
+      <visibility xmi:id="_WJ3LdextEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJ3LduxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_WJ3Ld-xtEe2PMt3eN9rk3g">
+        <modelElement href="snackVendingMachine.uml#_WHfMs-xtEe2PMt3eN9rk3g"/>
+        <type xmi:id="_WJ3LeOxtEe2PMt3eN9rk3g" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_WJ3LeextEe2PMt3eN9rk3g" name="coin">
+        <modelElement href="snackVendingMachine.uml#_WHfMsuxtEe2PMt3eN9rk3g"/>
+        <cardinality xmi:id="_WJ3LeuxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+        <type xmi:id="_WJ3Le-xtEe2PMt3eN9rk3g" name="Coin">
+          <modelElement href="snackVendingMachine.uml#_WGDpUOxtEe2PMt3eN9rk3g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_WJ3LfOxtEe2PMt3eN9rk3g" name="insertNote">
+      <modelElement href="snackVendingMachine.uml#_WHfMtOxtEe2PMt3eN9rk3g"/>
+      <visibility xmi:id="_WJ3LfextEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJ3LfuxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_WJ3Lf-xtEe2PMt3eN9rk3g">
+        <modelElement href="snackVendingMachine.uml#_WHfMtuxtEe2PMt3eN9rk3g"/>
+        <type xmi:id="_WJ3LgOxtEe2PMt3eN9rk3g" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_WJ3LgextEe2PMt3eN9rk3g" name="note">
+        <modelElement href="snackVendingMachine.uml#_WHfMtextEe2PMt3eN9rk3g"/>
+        <cardinality xmi:id="_WJ3LguxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+        <type xmi:id="_WJ3Lg-xtEe2PMt3eN9rk3g" name="Note">
+          <modelElement href="snackVendingMachine.uml#_WGLlIextEe2PMt3eN9rk3g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_WJ7csOxtEe2PMt3eN9rk3g" name="Main">
+    <modelElement href="snackVendingMachine.uml#_WGJv8OxtEe2PMt3eN9rk3g"/>
+    <visualProperties xmi:id="_WJ8DwOxtEe2PMt3eN9rk3g" position="425.0,169.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_WJ8DwextEe2PMt3eN9rk3g" label="+"/>
+    <operations xmi:id="_WJ8DwuxtEe2PMt3eN9rk3g" name="main" staticOperation="true">
+      <modelElement href="snackVendingMachine.uml#_WGJv8extEe2PMt3eN9rk3g"/>
+      <visibility xmi:id="_WJ8Dw-xtEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJ8DxOxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_WJ8DxextEe2PMt3eN9rk3g" name="args">
+        <modelElement href="snackVendingMachine.uml#_WGJv8uxtEe2PMt3eN9rk3g"/>
+        <cardinality xmi:id="_WJ8DxuxtEe2PMt3eN9rk3g" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_WJ8Dx-xtEe2PMt3eN9rk3g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_WJ9R4extEe2PMt3eN9rk3g" name="Money" subclassedBy="_WJ9R4OxtEe2PMt3eN9rk3g">
+    <modelElement href="snackVendingMachine.uml#_WGK-EextEe2PMt3eN9rk3g"/>
+    <visualProperties xmi:id="_WJ9R4uxtEe2PMt3eN9rk3g" position="941.0,-339.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_WJ9R4-xtEe2PMt3eN9rk3g" label="+"/>
+    <attributes xmi:id="_WJ9R5OxtEe2PMt3eN9rk3g" name="currency">
+      <modelElement href="snackVendingMachine.uml#_WGLlIOxtEe2PMt3eN9rk3g"/>
+      <visibility xmi:id="_WJ9R5extEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJ9R5uxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <type xmi:id="_WJ9R5-xtEe2PMt3eN9rk3g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_WJ_uIOxtEe2PMt3eN9rk3g" name="Coin">
+    <modelElement href="snackVendingMachine.uml#_WGDpUOxtEe2PMt3eN9rk3g"/>
+    <visualProperties xmi:id="_WJ_uIextEe2PMt3eN9rk3g" position="1067.0,385.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_WJ_uIuxtEe2PMt3eN9rk3g" name="EnumExtension">
+      <modelElement href="snackVendingMachine.uml#_WGE3cOxtEe2PMt3eN9rk3g"/>
+    </stereotypes>
+    <visibility xmi:id="_WJ_uI-xtEe2PMt3eN9rk3g" label="~"/>
+    <attributes xmi:id="_WJ_uJOxtEe2PMt3eN9rk3g" name="value">
+      <modelElement href="snackVendingMachine.uml#_WHkFMextEe2PMt3eN9rk3g"/>
+      <stereotypes xmi:id="_WJ_uJextEe2PMt3eN9rk3g" name="LegacyStyledElement">
+        <modelElement href="snackVendingMachine.uml#_WHkFMuxtEe2PMt3eN9rk3g"/>
+      </stereotypes>
+      <visibility xmi:id="_WJ_uJuxtEe2PMt3eN9rk3g" label="-"/>
+      <cardinality xmi:id="_WJ_uJ-xtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <type xmi:id="_WJ_uKOxtEe2PMt3eN9rk3g" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_WJ_uKextEe2PMt3eN9rk3g" name="Coin">
+      <modelElement href="snackVendingMachine.uml#_WGH6wOxtEe2PMt3eN9rk3g"/>
+      <keywords xmi:id="_WJ_uKuxtEe2PMt3eN9rk3g" keyword="create"/>
+      <visibility xmi:id="_WJ_uK-xtEe2PMt3eN9rk3g" label="~"/>
+      <cardinality xmi:id="_WJ_uLOxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_WJ_uLextEe2PMt3eN9rk3g">
+        <modelElement href="snackVendingMachine.uml#_WGH6xOxtEe2PMt3eN9rk3g"/>
+        <type xmi:id="_WJ_uLuxtEe2PMt3eN9rk3g" name="Coin">
+          <modelElement href="snackVendingMachine.uml#_WGDpUOxtEe2PMt3eN9rk3g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_WJ_uL-xtEe2PMt3eN9rk3g" name="d">
+        <modelElement href="snackVendingMachine.uml#_WGH6wextEe2PMt3eN9rk3g"/>
+        <cardinality xmi:id="_WJ_uMOxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+        <type xmi:id="_WJ_uMextEe2PMt3eN9rk3g" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_WJ_uMuxtEe2PMt3eN9rk3g" name="getValue">
+      <modelElement href="snackVendingMachine.uml#_WGIh0OxtEe2PMt3eN9rk3g"/>
+      <visibility xmi:id="_WJ_uM-xtEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJ_uNOxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_WJ_uNextEe2PMt3eN9rk3g">
+        <modelElement href="snackVendingMachine.uml#_WGIh0extEe2PMt3eN9rk3g"/>
+        <type xmi:id="_WJ_uNuxtEe2PMt3eN9rk3g" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <literals xmi:id="_WJ_uN-xtEe2PMt3eN9rk3g" name="DOLLAR">
+      <modelElement href="snackVendingMachine.uml#_WGGFkOxtEe2PMt3eN9rk3g"/>
+    </literals>
+    <literals xmi:id="_WJ_uOOxtEe2PMt3eN9rk3g" name="TEN_CENT">
+      <modelElement href="snackVendingMachine.uml#_WGGsoOxtEe2PMt3eN9rk3g"/>
+    </literals>
+    <literals xmi:id="_WJ_uOextEe2PMt3eN9rk3g" name="TWINTY_CENT">
+      <modelElement href="snackVendingMachine.uml#_WGGsouxtEe2PMt3eN9rk3g"/>
+    </literals>
+    <literals xmi:id="_WJ_uOuxtEe2PMt3eN9rk3g" name="FIFTYCent">
+      <modelElement href="snackVendingMachine.uml#_WGGspOxtEe2PMt3eN9rk3g"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_WKDYgOxtEe2PMt3eN9rk3g" name="CoinSlot">
+    <modelElement href="snackVendingMachine.uml#_WGE3cextEe2PMt3eN9rk3g"/>
+    <visualProperties xmi:id="_WKDYgextEe2PMt3eN9rk3g" position="444.0,319.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_WKDYguxtEe2PMt3eN9rk3g" keyword="sameFile"/>
+    <visibility xmi:id="_WKDYg-xtEe2PMt3eN9rk3g" label="~"/>
+    <attributes xmi:id="_WKDYhOxtEe2PMt3eN9rk3g" name="amount">
+      <modelElement href="snackVendingMachine.uml#_WHkFMOxtEe2PMt3eN9rk3g"/>
+      <visibility xmi:id="_WKDYhextEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WKDYhuxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <type xmi:id="_WKDYh-xtEe2PMt3eN9rk3g" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_WKDYiOxtEe2PMt3eN9rk3g" name="insertCoin">
+      <modelElement href="snackVendingMachine.uml#_WHVbsOxtEe2PMt3eN9rk3g"/>
+      <visibility xmi:id="_WKDYiextEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WKDYiuxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_WKDYi-xtEe2PMt3eN9rk3g" name="coin">
+        <modelElement href="snackVendingMachine.uml#_WHVbsextEe2PMt3eN9rk3g"/>
+        <cardinality xmi:id="_WKDYjOxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+        <type xmi:id="_WKDYjextEe2PMt3eN9rk3g" name="Coin">
+          <modelElement href="snackVendingMachine.uml#_WGDpUOxtEe2PMt3eN9rk3g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_WJ0H8OxtEe2PMt3eN9rk3g" name="VendingMachineController" associationsIn="_WJYqIOxtEe2PMt3eN9rk3g" associationsOut="_WJewwOxtEe2PMt3eN9rk3g">
+    <modelElement href="snackVendingMachine.uml#_WGixgOxtEe2PMt3eN9rk3g"/>
+    <visualProperties xmi:id="_WJ0H8extEe2PMt3eN9rk3g" position="1438.0,-307.0" size="669.0,256.0"/>
+    <visibility xmi:id="_WJ0H8uxtEe2PMt3eN9rk3g" label="+"/>
+    <attributes xmi:id="_WJ0H8-xtEe2PMt3eN9rk3g" name="vendingMachine">
+      <modelElement href="snackVendingMachine.uml#_WHo9sOxtEe2PMt3eN9rk3g"/>
+      <visibility xmi:id="_WJ0H9OxtEe2PMt3eN9rk3g" label="-"/>
+      <cardinality xmi:id="_WJ0H9extEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <type xmi:id="_WJ0H9uxtEe2PMt3eN9rk3g" name="VendingMachine">
+        <modelElement href="snackVendingMachine.uml#_WGfuMOxtEe2PMt3eN9rk3g"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_WJ0H9-xtEe2PMt3eN9rk3g" name="displaySnacks">
+      <modelElement href="snackVendingMachine.uml#_WGjYkOxtEe2PMt3eN9rk3g"/>
+      <visibility xmi:id="_WJ0H-OxtEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJ0H-extEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_WJ0H-uxtEe2PMt3eN9rk3g" name="selectSnack">
+      <modelElement href="snackVendingMachine.uml#_WGj_oOxtEe2PMt3eN9rk3g"/>
+      <visibility xmi:id="_WJ0H--xtEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJ0H_OxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_WJ0H_extEe2PMt3eN9rk3g" name="row">
+        <modelElement href="snackVendingMachine.uml#_WGj_oextEe2PMt3eN9rk3g"/>
+        <cardinality xmi:id="_WJ0H_uxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+        <type xmi:id="_WJ0H_-xtEe2PMt3eN9rk3g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_WJ0IAOxtEe2PMt3eN9rk3g" name="column">
+        <modelElement href="snackVendingMachine.uml#_WGj_ouxtEe2PMt3eN9rk3g"/>
+        <cardinality xmi:id="_WJ0IAextEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+        <type xmi:id="_WJ0IAuxtEe2PMt3eN9rk3g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_WJ0IA-xtEe2PMt3eN9rk3g" name="insertCard">
+      <modelElement href="snackVendingMachine.uml#_WGj_o-xtEe2PMt3eN9rk3g"/>
+      <visibility xmi:id="_WJ0IBOxtEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJ0IBextEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_WJ0IBuxtEe2PMt3eN9rk3g" name="amount">
+        <modelElement href="snackVendingMachine.uml#_WGkmsOxtEe2PMt3eN9rk3g"/>
+        <cardinality xmi:id="_WJ0IB-xtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+        <type xmi:id="_WJ0ICOxtEe2PMt3eN9rk3g" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_WJ0ICextEe2PMt3eN9rk3g" name="cancelTransaction">
+      <modelElement href="snackVendingMachine.uml#_WGkmsextEe2PMt3eN9rk3g"/>
+      <visibility xmi:id="_WJ0ICuxtEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJ0IC-xtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_WJ0IDOxtEe2PMt3eN9rk3g" name="dispenseItem">
+      <modelElement href="snackVendingMachine.uml#_WGkmsuxtEe2PMt3eN9rk3g"/>
+      <visibility xmi:id="_WJ0IDextEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJ0IDuxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_WJ0ID-xtEe2PMt3eN9rk3g" name="row">
+        <modelElement href="snackVendingMachine.uml#_WGlNwOxtEe2PMt3eN9rk3g"/>
+        <cardinality xmi:id="_WJ0IEOxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+        <type xmi:id="_WJ0IEextEe2PMt3eN9rk3g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_WJ0IEuxtEe2PMt3eN9rk3g" name="column">
+        <modelElement href="snackVendingMachine.uml#_WGlNwextEe2PMt3eN9rk3g"/>
+        <cardinality xmi:id="_WJ0IE-xtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+        <type xmi:id="_WJ0IFOxtEe2PMt3eN9rk3g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_WJ0IFextEe2PMt3eN9rk3g" name="VendingMachineController">
+      <modelElement href="snackVendingMachine.uml#_WHfzwOxtEe2PMt3eN9rk3g"/>
+      <keywords xmi:id="_WJ0IFuxtEe2PMt3eN9rk3g" keyword="create"/>
+      <visibility xmi:id="_WJ0IF-xtEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJ0IGOxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_WJ0IGextEe2PMt3eN9rk3g">
+        <modelElement href="snackVendingMachine.uml#_WHfzxOxtEe2PMt3eN9rk3g"/>
+        <type xmi:id="_WJ0IGuxtEe2PMt3eN9rk3g" name="VendingMachineController">
+          <modelElement href="snackVendingMachine.uml#_WGixgOxtEe2PMt3eN9rk3g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_WJ0IG-xtEe2PMt3eN9rk3g" name="vendingMachine">
+        <modelElement href="snackVendingMachine.uml#_WHfzwextEe2PMt3eN9rk3g"/>
+        <cardinality xmi:id="_WJ0IHOxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+        <type xmi:id="_WJ0IHextEe2PMt3eN9rk3g" name="VendingMachine">
+          <modelElement href="snackVendingMachine.uml#_WGfuMOxtEe2PMt3eN9rk3g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_WJ0IHuxtEe2PMt3eN9rk3g" name="insertCoin">
+      <modelElement href="snackVendingMachine.uml#_WHfzxextEe2PMt3eN9rk3g"/>
+      <visibility xmi:id="_WJ0IH-xtEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJ0IIOxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_WJ0IIextEe2PMt3eN9rk3g" name="coin">
+        <modelElement href="snackVendingMachine.uml#_WHfzxuxtEe2PMt3eN9rk3g"/>
+        <cardinality xmi:id="_WJ0IIuxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+        <type xmi:id="_WJ0II-xtEe2PMt3eN9rk3g" name="Coin">
+          <modelElement href="snackVendingMachine.uml#_WGDpUOxtEe2PMt3eN9rk3g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_WJ0IJOxtEe2PMt3eN9rk3g" name="insertNote">
+      <modelElement href="snackVendingMachine.uml#_WHga0OxtEe2PMt3eN9rk3g"/>
+      <visibility xmi:id="_WJ0IJextEe2PMt3eN9rk3g" label="+"/>
+      <cardinality xmi:id="_WJ0IJuxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_WJ0IJ-xtEe2PMt3eN9rk3g" name="note">
+        <modelElement href="snackVendingMachine.uml#_WHga0extEe2PMt3eN9rk3g"/>
+        <cardinality xmi:id="_WJ0IKOxtEe2PMt3eN9rk3g" label="1" max="1" min="1"/>
+        <type xmi:id="_WJ0IKextEe2PMt3eN9rk3g" name="Note">
+          <modelElement href="snackVendingMachine.uml#_WGLlIextEe2PMt3eN9rk3g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
