@@ -2,7 +2,15 @@
 Vending machines can be be of different types. Some vending machines are dedicated to coffee,
 some are dedicated to drinks, and others are dedicated to snacks. For this assignment, you will
 implement a Snack Vending machine.
-Deliverables:
+### Brief information
+
+
+A few resources used in this project:
+
+-  Use Model–view–controller (MVC) as a software architectural pattern
+-  Use the Factory Design Pattern
+
+##Deliverables:
 1. Provide a UML diagram/s to illustrate your understanding of Object Oriented design
 techniques and concepts.
 2. Provide a code skeleton to the design.
